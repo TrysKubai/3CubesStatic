@@ -492,7 +492,17 @@
       "Nemokamas pamokos paketas sukurtas taip, kad mokytojas klasei gali pats savarankiškai pravesti pamoką.",
       "Jeigu kyla klausimų įsirašant programėles, kreipkitės į <b>gabriele@tryskubai.lt</b>",
       "Jeigu norite, kad pamoką Jūsų klasei pravestų Trys kubai edukatorius, šių metų kaina — 3 eur/mokiniui, dėl pasiūlymo kreipkitės akvile@tryskubai.lt, +370 (602) 91 919"
-    ]
+    ],
+    "downloadForm": {
+      "title": "Pamokos parsisiuntimas",
+      "instructions": "Įveskite savo el. pašto adresą ir išsiųsime visą reikalingą medžiagą jums į paštą.",
+      "note": "Mums svarbi Jūsų nuomonė!",
+      "desc": "Galite pasirinkti, ar norite gauti užklausas apie kitus mūsų produktus į savo el. paštą susisiekimo ir rinkodaros tikslais. Tai svarbu ir skirta tam, kad galėtume susisiekti su Jumis - išgirsti Jūsų nuomonę, kaip sekėsi savarankiškai vesti pamoką ir padėti iškilus klausimams.",
+      "gdpr": "Parsisiųsdami pamoką, sutinkate, kad jūsų el. pašto adresas bus užregistruotas, statistikos ir atsiliepimų rinkimo tikslais.",
+      "newsletter": "Jei taip pat norite gauti mūsų naujienlaiškį.",
+      "send": "Siųsti",
+      "sent": "Išsiųsta!"
+    }
   },
   "gdpr": {
     "title": "Mes vertiname jūsų privatumą",
@@ -547,5 +557,12 @@
     "title": "<b>Spalukų nustatymų valdymas</b>",
     "info": "Norėdami užsiprenumeruoti mūsų naujienlaiškį, pirmiausia turite pakeisti slapukų nustatymus.<br>",
     "desc": "Spauskite <b>mirksinčią ikonelę</b>, tada atidatykite <b>\"Leisti pasirinkimą\"</b> ir įgalinkite <b>\"Functiniai\"</b> slapukus arba galite <b>\"Priimti Visus\"</b>."
+  },
+  "validations": {
+    "no-empty": "Ši reikšmė negali būti tuščia",
+    "no-symbols-email": "Negalima naudoti šių simbolių: (“‘/$&\\;)"
+  },
+  "error":{
+    "500": "Kažkas nepavyko 🤕"
   }
 }

@@ -1,14 +1,13 @@
 <!-- A modal dialog containing a form -->
-<div id="downloadFormDialog" 
-    style="position: fixed; 
+<div id="downloadFormDialog" style="position: fixed; 
         width: 100%; 
         height: 100%; 
         z-index: 10;">
     <!-- Setting z-index seems hacky but it works for now -->
-    <div id="downloadFormBackground" 
-        style="background-color: #000000AA;
+    <div id="downloadFormBackground" style="background-color: #000000AA;
             width: 100%; height: 100%;"></div>
     <section style="display: flex; 
+                width: 80%;
                 justify-content: center; 
                 align-items: center; 
                 border-radius: 10px;
@@ -18,60 +17,68 @@
                 left: 50%;
                 -ms-transform: translate(-50%,-50%);
                 transform: translate(-50%,-50%);">
-        <div style="display: flex; flex-direction: column; border-radius: 10px; align-items: center; justify-content: center; max-width: 800px;">
-        <div style="min-height: 260px; 
+        <div
+            style="display: flex; flex-direction: column; border-radius: 10px; align-items: center; justify-content: center; max-width: 800px;">
+            <div style="min-height: 260px; 
                 padding: 2rem; 
                 border-radius: 10px; 
                 box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
                 background-color: #FFFFFF;">
-            <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-            <div style="display: flex; justify-content: center;">
-                <h2 style="margin-top: 0; font-weight: 400; padding:1.2rem 0;">Pamokos parsisiuntimas</h2>
-            </div>
-            <div>
-                <h4 style="font-weight: 300; margin-bottom: 10px;">Įveskite savo el. pašto adresą ir išsiųsime visą reikalingą medžiagą jums į paštą.</h4>
-            </div>
-            <div style="padding-bottom:1rem;">
-                <h4 style="margin: 0; padding-bottom: .5rem; font-weight: 400;">Mums svarbi Jūsų nuomonė!
-                </h4>
-                <h5 class="desc-details" style="margin: 0; font-weight: 300;">
-                Galite pasirinkti, ar norite gauti užklausas apie kitus mūsų produktus 
-                į savo el. paštą susisiekimo ir rinkodaros tikslais. 
-                Tai svarbu ir skirta tam, kad galėtume susisiekti su Jumis - išgirsti Jūsų nuomonę,
-                kaip sekėsi savarankiškai vesti pamoką ir padėti iškilus klausimams.
-                </h5>
-                <h7>Parsisiųsdami pamoką, sutinkate, kad jūsų el. pašto adresas bus užregistruotas, statistikos ir atsiliepimų rinkimo tikslais.<h7>
-            </div>
+                <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                    <div style="display: flex; justify-content: center;">
+                        <h2 class="element" data="sample.downloadForm.title"
+                            style="margin-top: 0; font-weight: 400; padding:1.2rem 0;">Lesson download form</h2>
+                    </div>
+                    <div>
+                        <h4 class="element" data="sample.downloadForm.instructions"
+                            style="font-weight: 300; margin-bottom: 10px;">Please enter your email address so that we
+                            could send you the lesson map and the instructions for it.</h4>
+                    </div>
+                    <div style="padding-bottom:1rem;">
+                        <h4 class="element" data="sample.downloadForm.note"
+                            style="margin: 0; padding-bottom: .5rem; font-weight: 400;">We care about your opinion!</h4>
+                        <h5 class="element" data="sample.downloadForm.desc" class="desc-details"
+                            style="margin: 0; font-weight: 300;">
+                            You can choose to receive news about our other products in your email for communication and
+                            marketing purposes. This is important and is intended for us to be able to contact you - to
+                            hear your opinion, how you managed to conduct the lesson on your own and help in case of
+                            questions.
+                        </h5>
+                        <h7 class="element" data="sample.downloadForm.gdpr">By downloading lesson you agree that your
+                            email will be stored for statistical and feedback collecting purposes.<h7>
+                    </div>
 
-            <div style="padding-bottom:1rem;">
-                <div style="display:flex; flex-direction:column; align-items:flex-start; padding-bottom:5px;">
-                <input
-                    style="height:30px; width: 100%; padding-left: 5px; border:2px solid #aaa; border-radius:4px; box-sizing:border-box; outline:none; font-weight:400; transition:.3s;"
-                    id="email" type="email" placeholder="el.paštas@gmail.com" size="30" required autocomplete="off">
-                <span id="valid-required" class="valid-error" style="padding-top:5px;">Ši reikšmė negali
-                    būti tuščia.</span>
-                <span id="valid-symbols" class="valid-error" style="padding-top:5px;">Negalima naudoti
-                    (<b>“‘/$&\;</b>)</span>
+                    <div style="padding-bottom:1rem;">
+                        <div style="display:flex; flex-direction:column; align-items:flex-start; padding-bottom:5px;">
+                            <input
+                                style="height:30px; width: 100%; padding-left: 5px; border:2px solid #aaa; border-radius:4px; box-sizing:border-box; outline:none; font-weight:400; transition:.3s;"
+                                id="email" type="email" placeholder="el.paštas@gmail.com" size="30" required
+                                autocomplete="off">
+                            <span id="valid-required" class="valid-error" style="padding-top:5px;">Ši reikšmė negali
+                                būti tuščia.</span>
+                            <span id="valid-symbols" class="valid-error" style="padding-top:5px;">Negalima naudoti
+                                (<b>“‘/$&\;</b>)</span>
+                        </div>
+                        <div
+                            style="display:flex; flex-direction:row; justify-content:flex-start; align-items:center; margin:10px 0; ">
+                        </div>
+                        <div class="checkbox">
+                            <div class="checkbox-container">
+                                <input id="checkbox" type="checkbox">
+                                <h6 data="sample.downloadForm.newsletter" class="element checkbox-txt"
+                                    style="padding:0 3px;">I agree to signup for newsletter
+                            </div>
+                        </div>
+                    </div>
+                    <div style=" display: flex; justify-content: center; align-items: center;">
+                        <button id="downloadSubmitButton"
+                            style="display: flex; align-items: center; justify-content: center; border-radius: 10px; width: 200px; height: 40px; background:#ff5722; border:none; outline:none; border-radius:5px;">
+                            <h3 data="sample.downloadForm.send" style="font-size:1rem; font-weight:400; color:white;">
+                                Send</h3>
+                        </button>
+                    </div>
                 </div>
-                <div
-                style="display:flex; flex-direction:row; justify-content:flex-start; align-items:center; margin:10px 0; ">
-                </div>
-                <div class="checkbox">
-                <div class="checkbox-container">
-                    <input id="checkbox" type="checkbox">
-                    <h6 class="checkbox-txt" style="padding:0 3px;">Jei taip pat norite gauti mūsų naujienlaiškį.
-                </div>
-                </div>
-            </div>
-            <div style=" display: flex; justify-content: center; align-items: center;">
-                <button id="downloadSubmitButton"
-                style="display: flex; align-items: center; justify-content: center; border-radius: 10px; width: 200px; height: 40px; background:#ff5722; border:none; outline:none; border-radius:5px;">
-                <h3 style="font-size:1rem; font-weight:400; color:white;">Siųsti</h3>
-                </button>
-            </div>
-            </div>
-            <div id="successOverlay"
-                style="position:absolute; 
+                <div id="successOverlay" style="position:absolute; 
                     display:none; 
                     margin: 0;
                     top: 50%;
@@ -81,7 +88,7 @@
                     width: 100%;
                     height: 100%; 
                     background:rgba(0, 0, 0, 0.3)">
-                <div style="background:white;
+                    <div style="background:white;
                     position:absolute;
                     width: 100%; 
                     display:block; 
@@ -91,11 +98,10 @@
                     -ms-transform: translate(-50%,-50%);
                     transform: translate(-50%,-50%);
                     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
-                    <h2 style="padding:3rem;">Išsiųsta!</h2>
+                        <h2 style="padding:3rem;">Sent!</h2>
+                    </div>
                 </div>
-            </div>
-            <div id="failOverlay"
-                style="position:absolute; 
+                <div id="failOverlay" style="position:absolute; 
                     display:none; 
                     margin: 0;
                     top: 50%;
@@ -105,7 +111,7 @@
                     width: 100%;
                     height: 100%; 
                     background:rgba(0, 0, 0, 0.3)">
-                <div style="background:rgb(255, 195, 181);
+                    <div style="background:rgb(255, 195, 181);
                     position:absolute;
                     width: 100%; 
                     display:block; 
@@ -115,10 +121,10 @@
                     -ms-transform: translate(-50%,-50%);
                     transform: translate(-50%,-50%);
                     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
-                    <h2 style="padding:3rem;">Kažkas nepavyko 🤕</h2>
+                        <h2 style="padding:3rem;">Something went wrong 🤕</h2>
+                    </div>
                 </div>
             </div>
-        </div>
     </section>
-    
+
 </div>

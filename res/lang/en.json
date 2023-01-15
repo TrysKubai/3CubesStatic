@@ -485,7 +485,17 @@
       "Our free lesson packages are designed in a way that the teacher could go along with material and teach class on his own.",
       "For any questions feel free to contact <b>gabriele@tryskubai.lt</b>",
       "Trys kubai educator could teach your class, this year's price is 3 eur/student, contact <b>akvile@tryskubai.lt</b>, +370 (602) 91 919 for an offer."
-    ]
+    ],
+    "downloadForm": {
+      "title": "Lesson download form",
+      "instructions": "Please enter your email address so that we could send you the lesson map and the instructions for it.",
+      "note": "We care about your opinion!",
+      "desc": "You can choose to receive news about our products and other communications for direct marketing purposes. This is important and is intended for us to be able to contact you - to hear your opinion, how you managed to conduct the lesson on your own and help in case of questions.",
+      "gdpr": "By downloading lesson you agree that your email will be stored for statistical and feedback collecting purposes.",
+      "newsletter": "I agree to signup for newsletter",
+      "send": "Send",
+      "sent": "Sent!"
+    }
   },
   "gdpr": {
     "title": "We value your privacy",
@@ -539,5 +549,12 @@
     "title": "<b>Here's your cookies settings</b>",
     "info": "In order to subscribe to our newsletter, you need to customize your cookies settings first.<br>",
     "desc": "Press <b>Blinking Cookie</b>, then <b>\"Customize\"</b> and Enable <b>\"Functional\"</b> cookie or you can <b>\"Accept All\"</b> settings."
+  },
+  "validations": {
+    "no-empty": "This field can not be empty",
+    "no-symbols-email": "These symbols can not be used: (“‘/$&\\;)"
+  },
+  "error": {
+    "500": "Something went wrong 🤕"
   }
 }
