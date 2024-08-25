@@ -119,14 +119,15 @@ function defineDownloadForm2(template) {
 }
 
 function onClickDownloadButton2(lesson) {
-  const downloadForm = document.querySelector("download-form-2");
-  const packageLangSelect = document.querySelector('#packageLang');
-  const packageLangEn = document.querySelector('#packageLangEn');
+  // const downloadForm = document.querySelector("download-form-2");
+  // const packageLangSelect = document.querySelector('#packageLang');
+  // const packageLangEn = document.querySelector('#packageLangEn');
 
-  downloadForm.lesson = lesson;
-  downloadForm.language = getLocalizationLanguage().toUpperCase();
-  downloadForm.show();
+  // downloadForm.lesson = lesson;
+  // downloadForm.language = getLocalizationLanguage().toUpperCase();
+  // downloadForm.show();
 
-  packageLangSelect.value = 'LT';
-  packageLangEn.disabled = lesson === 'KMKM';
+  // packageLangSelect.value = 'LT';
+  // packageLangEn.disabled = lesson === 'KMKM';
+  onClickDownloadButton(lesson);
 }

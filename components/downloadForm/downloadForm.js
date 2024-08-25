@@ -120,23 +120,42 @@ function defineDownloadForm(template) {
 
 function onClickDownloadButton(lesson) {
   
-  const downloadForm = document.querySelector("download-form");
-  const packageLangSelect = document.querySelector('#packageLang');
-  const packageLangEn = document.querySelector('#packageLangEn');
+  // const downloadForm = document.querySelector("download-form");
+  // const packageLangSelect = document.querySelector('#packageLang');
+  // const packageLangEn = document.querySelector('#packageLangEn');
 
-  downloadForm.lesson = lesson;
-  downloadForm.language = getLocalizationLanguage().toUpperCase();
-  downloadForm.show();
+  // downloadForm.lesson = lesson;
+  // downloadForm.language = getLocalizationLanguage().toUpperCase();
+  // downloadForm.show();
 
-  packageLangSelect.value = 'LT';
-  packageLangEn.disabled = lesson === 'KMKM';
+  // packageLangSelect.value = 'LT';
+  // packageLangEn.disabled = lesson === 'KMKM';
 
-  if (packageLangEn.disabled == true)
-  {
-    packageLangEn.style.display = 'none';
+  // if (packageLangEn.disabled == true)
+  // {
+  //   packageLangEn.style.display = 'none';
+  // }
+  // else
+  // {
+  //   packageLangEn.style.display = '';
+  // }
+  var url = ""
+  if (lesson === 'KMKM') {
+    url = "res/lesson-archives/KingQuean_LT.zip" 
   }
-  else
-  {
-    packageLangEn.style.display = '';
+  else if (lesson === 'S13') {
+    url = "res/lesson-archives/Jan13_LT.zip"
   }
+  else if (lesson === 'UA')
+  {
+    url = "res/lesson-archives/UA_LT.zip"
+  }
+
+  const a = document.createElement('a')
+  a.href = url
+  a.download = url.split('/').pop()
+  document.body.appendChild(a)
+  a.click()
+  document.body.removeChild(a)
+
 }

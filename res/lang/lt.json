@@ -465,7 +465,8 @@
     "banner": "Specialus pasiūlymas — kviečiame nemokamai atsisiųsti „Trys kubai“ pamoką „Sausio 13-oji“.",
     "hero": {
       "title": "Dovanų — pamokos paketas!",
-      "sub": "Prenumeruok „Trys kubai“ naujienlaiškį ir gauk savarankiškai vedamos pamokos paketą į el. paštą!",
+      "sub": "Išbandykite savarankiškai vedamos pamokos paketus!",
+      "sub2": "Prenumeruok „Trys kubai“ naujienlaiškį ir gauk savarankiškai vedamos pamokos paketą į el. paštą!",
       "btn": "Susisiekite"
     },
     "king&queen": {
@@ -510,7 +511,7 @@
     },
     "info": [
       "Nemokamas pamokos paketas sukurtas taip, kad mokytojas klasei gali pats savarankiškai pravesti pamoką.",
-      "Jeigu kyla klausimų įsirašant programėles, kreipkitės į <b>gabriele@tryskubai.lt</b>",
+      "Jeigu kyla klausimų įsirašant programėles, kreipkitės į <b>info@tryskubai.lt</b>",
       "Jeigu norite, kad pamoką Jūsų klasei pravestų Trys kubai edukatorius, šių metų kaina — 3 eur/mokiniui, dėl pasiūlymo kreipkitės akvile@tryskubai.lt, +370 (602) 91 919"
     ],
     "downloadForm": {

@@ -458,7 +458,8 @@
     "banner": "Special offer — we invite you to download \"Three Cubes\" \"January 13th\" and \"Humanitarian Aid for Ukraine\" lessons for FREE",
     "hero": {
       "title": "Gift - lesson package!",
-      "sub": "Subscribe to the \"Three Cubes\" newsletter and receive a self-guided lesson package by e-mail!",
+      "sub": "Try out the \"Three Cubes\" self-guided lesson packages!",
+      "sub2": "Subscribe to the \"Three Cubes\" newsletter and receive a self-guided lesson package by e-mail!",
       "btn": "Contact us!"
     },
     "king&queen": {
@@ -503,7 +504,7 @@
     },
     "info": [
       "Our free lesson packages are designed in a way that the teacher could go along with material and teach class on his own.",
-      "For any questions feel free to contact <b>gabriele@tryskubai.lt</b>",
+      "For any questions feel free to contact <b>info@tryskubai.lt</b>",
       "Trys kubai educator could teach your class, this year's price is 3 eur/student, contact <b>akvile@tryskubai.lt</b>, +370 (602) 91 919 for an offer."
     ],
     "downloadForm": {
