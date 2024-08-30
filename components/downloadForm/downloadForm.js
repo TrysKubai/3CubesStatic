@@ -141,14 +141,21 @@ function onClickDownloadButton(lesson) {
   // }
   var url = ""
   if (lesson === 'KMKM') {
-    url = "res/lesson-archives/KingQuean_LT.zip" 
+    // url = "res/lesson-archives/KingQuean_LT.zip"
+    // url = "https://drive.google.com/file/d/1dtsE9RUPHuGRlgWQ4WEkoUthdIvKfxTZ/view?usp=drive_link"
+    url = "https://drive.google.com/uc?export=download&id=1dtsE9RUPHuGRlgWQ4WEkoUthdIvKfxTZ" 
   }
   else if (lesson === 'S13') {
-    url = "res/lesson-archives/Jan13_LT.zip"
+    // url = "https://drive.google.com/file/d/1RTzhQca7LgBQpCNZ2aTJS7LMz1nxOEQi/view?usp=drive_link"
+    url = "https://drive.google.com/uc?export=download&id=1RTzhQca7LgBQpCNZ2aTJS7LMz1nxOEQi"
+    // url = "res/lesson-archives/Jan13_LT.zip"
   }
   else if (lesson === 'UA')
   {
-    url = "res/lesson-archives/UA_LT.zip"
+    // url = "https://drive.google.com/file/d/1KmXLtlrFErsIqwhPz_Esd9HT40P3wqnj"
+    // url = "res/lesson-archives/UA_LT.zip"
+    url = "https://drive.google.com/uc?export=download&id=1KmXLtlrFErsIqwhPz_Esd9HT40P3wqnj" 
+
   }
 
   const a = document.createElement('a')
