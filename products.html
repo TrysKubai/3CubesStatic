@@ -27,13 +27,13 @@
     <script src="./components/noticeOverlay/noticeOverlay.js"></script>
     <!-- GOOGLE ANALYTICS -->
     <script>
-      let gaProperty = "G-78KBBN7H92"
-      let disableStr = "ga-disable-" + gaProperty
+      let gaProperty = "G-78KBBN7H92";
+      let disableStr = "ga-disable-" + gaProperty;
 
       // Define dataLayer and the gtag function.
-      window.dataLayer = window.dataLayer || []
+      window.dataLayer = window.dataLayer || [];
       function gtag() {
-        dataLayer.push(arguments)
+        dataLayer.push(arguments);
       }
 
       // Default ad_storage to 'denied'.
@@ -41,7 +41,7 @@
         ad_storage: "denied",
         analytics_storage: "denied",
         wait_for_update: 5000,
-      })
+      });
     </script>
     <!-- Global site tag (gtag.js) - Google Ads: CONVERSION_ID  -->
     <script
@@ -49,40 +49,40 @@
       src="https://www.googletagmanager.com/gtag/js?id=AW-YYYYYY"
     ></script>
     <script>
-      window.dataLayer = window.dataLayer || []
+      window.dataLayer = window.dataLayer || [];
       function gtag() {
-        dataLayer.push(arguments)
+        dataLayer.push(arguments);
       }
-      gtag("js", new Date())
-      gtag("config", gaProperty, { debug_mode: true })
+      gtag("js", new Date());
+      gtag("config", gaProperty, { debug_mode: true });
     </script>
     <!-- NewsLetters Universal -->
     <script>
       // CHECKING for GDPR COOKIE & functional preference STATUS
-      ;(function (m, a, i, l, e, r) {
-        m["MailerLiteObject"] = e
+      (function (m, a, i, l, e, r) {
+        m["MailerLiteObject"] = e;
         function f() {
-          var c = { a: arguments, q: [] }
-          var r = this.push(c)
-          return "number" != typeof r ? r : f.bind(c.q)
+          var c = { a: arguments, q: [] };
+          var r = this.push(c);
+          return "number" != typeof r ? r : f.bind(c.q);
         }
-        f.q = f.q || []
-        m[e] = m[e] || f.bind(f.q)
-        m[e].q = m[e].q || f.q
-        r = a.createElement(i)
-        var _ = a.getElementsByTagName(i)[0]
-        r.async = 1
-        r.src = l + "?v" + ~~(new Date().getTime() / 1000000)
-        _.parentNode.insertBefore(r, _)
+        f.q = f.q || [];
+        m[e] = m[e] || f.bind(f.q);
+        m[e].q = m[e].q || f.q;
+        r = a.createElement(i);
+        var _ = a.getElementsByTagName(i)[0];
+        r.async = 1;
+        r.src = l + "?v" + ~~(new Date().getTime() / 1000000);
+        _.parentNode.insertBefore(r, _);
       })(
         window,
         document,
         "script",
         "https://static.mailerlite.com/js/universal.js",
         "ml"
-      )
+      );
 
-      var ml_account = ml("accounts", "1928266", "y4a6p1v7u9", "load")
+      var ml_account = ml("accounts", "1928266", "y4a6p1v7u9", "load");
     </script>
     <!-- NewsLetters Universal -->
   </head>
@@ -155,17 +155,18 @@
         <div class="modules__container flex-row">
           <div class="modules__container-1 flex-column">
             <div class="modules__container_title" id="defaultTitle">
-              <h5 class="element" data="products.packages.option1">1 Option</h5>
+              <!-- <h5 class="element" data="products.packages.option1">1 Option</h5> -->
               <h4 class="element" data="products.packages.titleA">
-                Well-crafted learning packages<br />for 3rd & 4th Grades
+                Learning packages<br />for 3rd & 4th Grades
               </h4>
-              <h6 class="element" data="products.packages.descA">
+              <!-- <h6 class="element" data="products.packages.descA">
                 Chosen to correlate with formal education programs
-              </h6>
+              </h6> -->
             </div>
+            <!-- Module building guidance tooltip -->
             <div class="modules__container-default flex-row">
               <div class="modules__container-default_helper fade-in-item">
-                <img id="helper" src="/res/img/products/tutorial.png" alt="" />
+                <!--<img id="helper" src="/res/img/products/tutorial.png" alt="" /> -->
               </div>
               <div class="modules__container-default_card card-container">
                 <div class="modules__container-default_card-title">
@@ -325,9 +326,9 @@
               </div>
             </div>
           </div>
-          <div class="modules__container-2 flex-column">
+          <!-- <div class="modules__container-2 flex-column">
             <div class="modules__container_title" id="customTitle">
-              <h5 class="element" data="products.packages.option2">2 Option</h5>
+               <h5 class="element" data="products.packages.option2">2 Option</h5> 
               <h4 class="element" data="products.packages.titleB">
                 Build your own package
               </h4>
@@ -356,9 +357,10 @@
                 </ul>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </section>
+      <!-- 
       <div class="packages flex-column">
         <div class="packages__title bottom-padding flex-column">
           <h2 class="element" data="products.plans.title">
@@ -442,7 +444,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </main>
     <footer-comp></footer-comp>
@@ -458,13 +460,13 @@
     <script src="./res/js/locale.js"></script>
 
     <script type="text/javascript">
-      const footer = document.querySelector("footer-comp")
-      const gdpr = document.querySelector("gdpr-popup")
-      const notice = document.querySelector("notice-overlay")
+      const footer = document.querySelector("footer-comp");
+      const gdpr = document.querySelector("gdpr-popup");
+      const notice = document.querySelector("notice-overlay");
 
-      footer.addEventListener("showNotice", () => notice.show())
-      gdpr.addEventListener("hideNotice", () => notice.hide())
-      notice.addEventListener("showGDPR", () => gdpr.show())
+      footer.addEventListener("showNotice", () => notice.show());
+      gdpr.addEventListener("hideNotice", () => notice.hide());
+      notice.addEventListener("showGDPR", () => gdpr.show());
     </script>
   </body>
 </html>

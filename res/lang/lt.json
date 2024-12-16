@@ -8,7 +8,8 @@
     "projects": "Projektai",
     "news": "Naujienos",
     "contacts": "Kontaktai",
-    "sample": "Išbandykite"
+    "sample": "Išbandykite",
+    "super_citizen": "Super Pilietis"
   },
   "footer": {
     "contact": {
@@ -31,11 +32,7 @@
       "main": "Sekite mus"
     },
     "policy": {
-      "sub": [
-        "Sąlygos ir nuostatos",
-        "Privatumo politika",
-        "Slapukų politika"
-      ]
+      "sub": ["Sąlygos ir nuostatos", "Privatumo politika", "Slapukų politika"]
     }
   },
   "main": {
@@ -394,13 +391,12 @@
     "title": "Individualūs mokymo moduliai!",
     "title2": "Pasirinkite pamokas individualiai arba išbandykite „Trijų kubų“ paruoštus modulius",
     "packages": {
-      "title": "Išbandykite mūsų paruoštus mokymo modulius arba susikurkite savo",
+      "title": "Išbandykite mūsų paruoštus mokymo modulius",
       "option": "Variantas",
       "option1": "1 Variantas",
       "option2": "2 Variantas",
-      "titleA": "Efektyvūs mokymo moduliai 3 ir 4 klasėms",
+      "titleA": "Mokymo moduliai 3 ir 4 klasėms",
       "titleB": "Susikurkite savo modulį",
-      "descA": "Paruoštos atsižvelgiant į ugdymo programą ",
       "descB": "Pasirink - Nutempk - Paleisk <br> 11 bet kokios klasės pamokų",
       "custom": {
         "title": "Moduliai"
@@ -437,28 +433,6 @@
           "Ekologinės problemos"
         ]
       }
-    },
-    "plans": {
-      "title": "Patys pasirinkite norimas pamokas",
-      "title2": "Pasiūlymai",
-      "classic": {
-        "name": "Classic",
-        "price": "17&euro;"
-      },
-      "period": "1 mokslo metams mokiniui",
-      "gold": {
-        "name": "Gold",
-        "price": "49&euro;"
-      },
-      "benefits": [
-        "1 Modulis (11 pamokų)",
-        "Mokytojo knyga ",
-        "Mokinio pratybos ",
-        "Savaitiniai susitikimai ",
-        "Techninė pagalba ",
-        "Kvalifikacijos mokymai 40 val.",
-        "Konsultanto pagalba"
-      ]
     }
   },
   "sample": {
@@ -512,7 +486,7 @@
     "info": [
       "Nemokamas pamokos paketas sukurtas taip, kad mokytojas klasei gali pats savarankiškai pravesti pamoką.",
       "Jeigu kyla klausimų įsirašant programėles, kreipkitės į <b>info@tryskubai.lt</b>",
-      "Jeigu norite, kad pamoką Jūsų klasei pravestų Trys kubai edukatorius, šių metų kaina — 3 eur/mokiniui, dėl pasiūlymo kreipkitės akvile@tryskubai.lt, +370 (602) 91 919"
+      "Jeigu norite, kad pamoką Jūsų klasei pravestų Trys kubai edukatorius, šių metų kaina — 3 eur/mokiniui, dėl pasiūlymo kreipkitės tadas@tryskubai.lt, +370 (600) 10 584"
     ],
     "downloadForm": {
       "title": "Pamokos paketas — dovanų!",
@@ -535,10 +509,7 @@
         "Negalima naudoti (<b>\" ' / $ & \\ ;</b>)",
         "Kažkas nutiko ne taip 🤕"
       ],
-      "label": [
-        "Įveskite el. paštą",
-        "Pasirinkite paketo kalbą"
-      ]
+      "label": ["Įveskite el. paštą", "Pasirinkite paketo kalbą"]
     },
     "downloadForm2": {
       "title": "Pamokos parsisiuntimas",
@@ -562,18 +533,15 @@
         "Negalima naudoti (<b>\" ' / $ & \\ ;</b>)",
         "Kažkas nutiko ne taip 🤕"
       ],
-      "label": [
-        "Įveskite el. paštą",
-        "Pasirinkite paketo kalbą"
-      ]
+      "label": ["Įveskite el. paštą", "Pasirinkite paketo kalbą"]
     }
   },
   "gdpr": {
     "title": "Mes vertiname jūsų privatumą",
-    "desc": "Naudodami slapukus mes siekame pagerinti jūsų naršymo patirtį, taip pat jie reikalingi analizuoti lankytojų srautą. Paspaudus „Priimti Visus“ jūs sutinkate su mūsų slapukų naudojimu.",
+    "desc": "Naudodami slapukus mes siekame pagerinti jūsų naršymo patirtį, taip pat jie reikalingi analizuoti lankytojų srautą. Paspaudus „Priimti visus“ jūs sutinkate su mūsų slapukų naudojimu.",
     "customize": "Leisti pasirinkimą",
-    "reject": "Atmesti Visus",
-    "accept": "Priimti Visus",
+    "reject": "Atmesti visus",
+    "accept": "Priimti visus",
     "savePref": "Išsaugoti Pasirinkimus",
     "cookie": {
       "title": "Slapukas",
@@ -613,13 +581,13 @@
     },
     "analytics": {
       "title": "Analitiniai",
-      "desc": "Analitiniai slapukai naudojami siekiant suprasti, kaip lankytojai sąveikauja su svetaine. Šie slapukai padeda teikti informaciją apie tokius rodiklius kaip lankytojų skaičius, srauto šaltinis ir kt."
+      "desc": "Analitiniai slapukai naudojami siekiant suprasti, kaip lankytojai sąveikauja su svetaine. Šie slapukai padeda teikti informaciją apie tokius rodiklius kaip, lankytojų skaičius, srauto šaltinis ir kt."
     }
   },
   "notice": {
     "title": "<b>Spalukų nustatymų valdymas</b>",
     "info": "Norėdami užsiprenumeruoti mūsų naujienlaiškį, pirmiausia turite pakeisti slapukų nustatymus.<br>",
-    "desc": "Spauskite <b>mirksinčią ikonelę</b>, tada atidatykite <b>\"Leisti pasirinkimą\"</b> ir įgalinkite <b>\"Functiniai\"</b> slapukus arba galite <b>\"Priimti Visus\"</b>."
+    "desc": "Spauskite <b>mirksinčią ikonelę</b>, tada atidatykite <b>\"leisti pasirinkimą\"</b> ir įgalinkite <b>\"Funkciniai\"</b> slapukus arba galite <b>\"Priimti visus\"</b>."
   },
   "validations": {
     "no-empty": "Ši reikšmė negali būti tuščia",
@@ -724,7 +692,7 @@
     }
   },
   "privacyPolicy": {
-    "title": "Privacy Policy",
+    "title": "Privatumo politika",
     "date": "Ši privatumo politika buvo paskelbta",
     "sub": "Suprantame jūsų asmens duomenų apsaugos svarbą, todėl jūsų asmens duomenis tvarkome teisėtai, skaidriai ir sąžiningai, iš anksto nustatytais tikslais ir tik tiek, kiek būtina tiems tikslams pasiekti. Tvarkydami jūsų asmens duomenis, dedame visas pastangas, kad jie būtų tikslūs, saugūs, konfidencialūs, tinkamai saugomi ir apsaugoti. Tvarkydami jūsų asmens duomenis laikomės Reglamento (ES) 2016/679 (Bendrasis duomenų apsaugos reglamentas) (toliau - BDAR) reikalavimų.",
     "list": {
@@ -919,7 +887,7 @@
     }
   },
   "cookiesPolicy": {
-    "title": "Cookies Policy",
+    "title": "Slapukų politika",
     "date": "Ši slapukų politika paskelbta",
     "sub": "Slapukų politika (toliau - Slapukų politika) interneto svetainės www.threecubes.gg (toliau - Svetainė), kurią valdo ir administruoja VšĮ Edukraftas (juridinio asmens kodas 305465636, registruotos buveinės adresas V. Nagevičiaus g. 3, Vilnius, Lietuva, el. pašto adresas info@tryskubai.lt) (toliau - Mes) paaiškina, kas yra slapukai ir kaip jie tvarkomi.",
     "list": {

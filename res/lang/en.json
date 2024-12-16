@@ -8,7 +8,8 @@
     "projects": "Projects",
     "news": "News",
     "contacts": "Contacts",
-    "sample": "Sample"
+    "sample": "Sample",
+    "super_citizen": "Super Citizen"
   },
   "footer": {
     "contact": {
@@ -31,11 +32,7 @@
       "main": "Follow us"
     },
     "policy": {
-      "sub": [
-        "Terms & Conditions",
-        "Privacy Policy",
-        "Cookies Policy"
-      ]
+      "sub": ["Terms & Conditions", "Privacy Policy", "Cookies Policy"]
     }
   },
   "main": {
@@ -391,9 +388,8 @@
       "title": "Select our learning packages or build your own",
       "option1": "1 Option",
       "option2": "2 Option",
-      "titleA": "Well-crafted learning packages for 3rd & 4th Grades",
+      "titleA": "Learning packages for 3rd & 4th Grades",
       "titleB": "Build your own package",
-      "descA": "Chosen to correlate with formal education programs",
       "descB": "Choose - Drag - Drop <br> 11 lessons from any grade to Package",
       "custom": {
         "title": "Package"
@@ -505,7 +501,7 @@
     "info": [
       "Our free lesson packages are designed in a way that the teacher could go along with material and teach class on his own.",
       "For any questions feel free to contact <b>info@tryskubai.lt</b>",
-      "Trys kubai educator could teach your class, this year's price is 3 eur/student, contact <b>akvile@tryskubai.lt</b>, +370 (602) 91 919 for an offer."
+      "Trys kubai educator could teach your class, this year's price is 3 eur/student, contact <b>tadas@tryskubai.lt</b>, +370 (600) 10 584 for an offer."
     ],
     "downloadForm": {
       "title": "Lesson download form",
@@ -528,10 +524,7 @@
         "Do not use (<b>\" ' / $ & \\ ;</b>)",
         "Something went wrong 🤕"
       ],
-      "label": [
-        "Enter email",
-        "Select package language"
-      ]
+      "label": ["Enter email", "Select package language"]
     },
     "downloadForm2": {
       "title": "Lesson download form",
@@ -555,18 +548,15 @@
         "Do not use (<b>\" ' / $ & \\ ;</b>)",
         "Something went wrong 🤕"
       ],
-      "label": [
-        "Enter email",
-        "Select package language"
-      ]
+      "label": ["Enter email", "Select package language"]
     }
   },
   "gdpr": {
     "title": "We value your privacy",
-    "desc": "We use cookies to enhance your browsing experience and analyze our traffic. By clicking \"Accept All\", you consent to our use of cookies.",
+    "desc": "We use cookies to enhance your browsing experience and analyze our traffic. By clicking \"Accept all\", you consent to our use of cookies.",
     "customize": "Customize",
-    "reject": "Reject All",
-    "accept": "Accept All",
+    "reject": "Reject all",
+    "accept": "Accept all",
     "savePref": "Save My Preferences",
     "cookie": {
       "title": "Cookie",
@@ -612,7 +602,7 @@
   "notice": {
     "title": "<b>Here's your cookies settings</b>",
     "info": "In order to subscribe to our newsletter, you need to customize your cookies settings first.<br>",
-    "desc": "Press <b>Blinking Cookie</b>, then <b>\"Customize\"</b> and Enable <b>\"Functional\"</b> cookie or you can <b>\"Accept All\"</b> settings."
+    "desc": "Press <b>Blinking Cookie</b>, then <b>\"Customize\"</b> and Enable <b>\"Functional\"</b> cookie or you can <b>\"Accept all\"</b> settings."
   },
   "validations": {
     "no-empty": "This field can not be empty",

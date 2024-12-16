@@ -26,13 +26,13 @@
     <script src="./components/noticeOverlay/noticeOverlay.js"></script>
     <!-- GOOGLE ANALYTICS -->
     <script>
-      let gaProperty = "G-78KBBN7H92"
-      let disableStr = "ga-disable-" + gaProperty
+      let gaProperty = "G-78KBBN7H92";
+      let disableStr = "ga-disable-" + gaProperty;
 
       // Define dataLayer and the gtag function.
-      window.dataLayer = window.dataLayer || []
+      window.dataLayer = window.dataLayer || [];
       function gtag() {
-        dataLayer.push(arguments)
+        dataLayer.push(arguments);
       }
 
       // Default ad_storage to 'denied'.
@@ -40,7 +40,7 @@
         ad_storage: "denied",
         analytics_storage: "denied",
         wait_for_update: 5000,
-      })
+      });
     </script>
     <!-- Global site tag (gtag.js) - Google Ads: CONVERSION_ID  -->
     <script
@@ -48,40 +48,40 @@
       src="https://www.googletagmanager.com/gtag/js?id=AW-YYYYYY"
     ></script>
     <script>
-      window.dataLayer = window.dataLayer || []
+      window.dataLayer = window.dataLayer || [];
       function gtag() {
-        dataLayer.push(arguments)
+        dataLayer.push(arguments);
       }
-      gtag("js", new Date())
-      gtag("config", gaProperty, { debug_mode: true })
+      gtag("js", new Date());
+      gtag("config", gaProperty, { debug_mode: true });
     </script>
     <!-- NewsLetters Universal -->
     <script>
       // CHECKING for GDPR COOKIE & functional preference STATUS
-      ;(function (m, a, i, l, e, r) {
-        m["MailerLiteObject"] = e
+      (function (m, a, i, l, e, r) {
+        m["MailerLiteObject"] = e;
         function f() {
-          var c = { a: arguments, q: [] }
-          var r = this.push(c)
-          return "number" != typeof r ? r : f.bind(c.q)
+          var c = { a: arguments, q: [] };
+          var r = this.push(c);
+          return "number" != typeof r ? r : f.bind(c.q);
         }
-        f.q = f.q || []
-        m[e] = m[e] || f.bind(f.q)
-        m[e].q = m[e].q || f.q
-        r = a.createElement(i)
-        var _ = a.getElementsByTagName(i)[0]
-        r.async = 1
-        r.src = l + "?v" + ~~(new Date().getTime() / 1000000)
-        _.parentNode.insertBefore(r, _)
+        f.q = f.q || [];
+        m[e] = m[e] || f.bind(f.q);
+        m[e].q = m[e].q || f.q;
+        r = a.createElement(i);
+        var _ = a.getElementsByTagName(i)[0];
+        r.async = 1;
+        r.src = l + "?v" + ~~(new Date().getTime() / 1000000);
+        _.parentNode.insertBefore(r, _);
       })(
         window,
         document,
         "script",
         "https://static.mailerlite.com/js/universal.js",
         "ml"
-      )
+      );
 
-      var ml_account = ml("accounts", "1928266", "y4a6p1v7u9", "load")
+      var ml_account = ml("accounts", "1928266", "y4a6p1v7u9", "load");
     </script>
     <!-- NewsLetters Universal -->
   </head>
@@ -225,22 +225,12 @@
         </div>
       </section>
       <section class="teacherSupport">
-        <div class="teacherSupport__wrapper1 flex">
-          <div class="text">
-            <h4 class="element" data="main.teacherSupport.cardLeft.main">
-              Personal consultant
-            </h4>
-            <h5 class="element" data="main.teacherSupport.cardLeft.desc">
-              "Three Cubes" consultant helps with the first lessons!
-            </h5>
-            <img
-              class="left"
-              src="./res/img/reusable/Ideation.png"
-              alt="light bulb"
-            />
-          </div>
-        </div>
-        <div class="teacherSupport__wrapper2 flex">
+        <div class="teacherSupport__wrapper flex-row">
+          <img
+            class="right mb150"
+            src="./res/img/reusable/Chalkboard.png"
+            alt="board"
+          />
           <div class="text">
             <h4 class="element" data="main.teacherSupport.cardMiddle.main">
               Informational guides
@@ -248,14 +238,14 @@
             <h5 class="element" data="main.teacherSupport.cardMiddle.desc">
               Plans for lessons, video trainings accessible at any time.
             </h5>
-            <img
-              class="right mb150"
-              src="./res/img/reusable/Chalkboard.png"
-              alt="board"
-            />
           </div>
         </div>
-        <div class="teacherSupport__wrapper3 flex">
+        <div class="teacherSupport__wrapper flex-row">
+          <img
+            class="right2"
+            src="./res/img/reusable/Certificate.png"
+            alt="certification"
+          />
           <div class="text">
             <h4 class="element" data="main.teacherSupport.cardRight.main">
               Fully prepared lessons
@@ -263,11 +253,6 @@
             <h5 class="element" data="main.teacherSupport.cardRight.desc">
               Exercises and virtual worlds based on different topics.
             </h5>
-            <img
-              class="right2"
-              src="./res/img/reusable/Certificate.png"
-              alt="certification"
-            />
           </div>
         </div>
       </section>
@@ -550,17 +535,17 @@
         classes: {
           pagination: "paginator",
         },
-      }).mount()
+      }).mount();
     </script>
 
     <script type="text/javascript">
-      const footer = document.querySelector("footer-comp")
-      const gdpr = document.querySelector("gdpr-popup")
-      const notice = document.querySelector("notice-overlay")
+      const footer = document.querySelector("footer-comp");
+      const gdpr = document.querySelector("gdpr-popup");
+      const notice = document.querySelector("notice-overlay");
 
-      footer.addEventListener("showNotice", () => notice.show())
-      gdpr.addEventListener("hideNotice", () => notice.hide())
-      notice.addEventListener("showGDPR", () => gdpr.show())
+      footer.addEventListener("showNotice", () => notice.show());
+      gdpr.addEventListener("hideNotice", () => notice.hide());
+      notice.addEventListener("showGDPR", () => gdpr.show());
     </script>
   </body>
 </html>

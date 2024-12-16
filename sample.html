@@ -28,12 +28,12 @@
     <script src="./components/downloadForm2/downloadForm2.js"></script>
     <!-- GOOGLE ANALYTICS -->
     <script>
-      let gaProperty = "G-78KBBN7H92"
-      let disableStr = "ga-disable-" + gaProperty
+      let gaProperty = "G-78KBBN7H92";
+      let disableStr = "ga-disable-" + gaProperty;
       // Define dataLayer and the gtag function.
-      window.dataLayer = window.dataLayer || []
+      window.dataLayer = window.dataLayer || [];
       function gtag() {
-        dataLayer.push(arguments)
+        dataLayer.push(arguments);
       }
 
       // Default ad_storage to 'denied'.
@@ -41,7 +41,7 @@
         ad_storage: "denied",
         analytics_storage: "denied",
         wait_for_update: 5000,
-      })
+      });
     </script>
     <!-- Global site tag (gtag.js) - Google Ads: CONVERSION_ID  -->
     <script
@@ -50,43 +50,43 @@
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
     <script>
-      window.dataLayer = window.dataLayer || []
+      window.dataLayer = window.dataLayer || [];
       function gtag() {
-        dataLayer.push(arguments)
+        dataLayer.push(arguments);
       }
 
-      gtag("js", new Date())
-      gtag("config", gaProperty)
+      gtag("js", new Date());
+      gtag("config", gaProperty);
     </script>
 
     <!-- NewsLetters Universal -->
     <script>
       // CHECKING for GDPR COOKIE & functional preference STATUS
       if (document.cookie.includes("GDPRConfirmed=functi-true")) {
-        ;(function (m, a, i, l, e, r) {
-          m["MailerLiteObject"] = e
+        (function (m, a, i, l, e, r) {
+          m["MailerLiteObject"] = e;
           function f() {
-            var c = { a: arguments, q: [] }
-            var r = this.push(c)
-            return "number" != typeof r ? r : f.bind(c.q)
+            var c = { a: arguments, q: [] };
+            var r = this.push(c);
+            return "number" != typeof r ? r : f.bind(c.q);
           }
-          f.q = f.q || []
-          m[e] = m[e] || f.bind(f.q)
-          m[e].q = m[e].q || f.q
-          r = a.createElement(i)
-          var _ = a.getElementsByTagName(i)[0]
-          r.async = 1
-          r.src = l + "?v" + ~~(new Date().getTime() / 1000000)
-          _.parentNode.insertBefore(r, _)
+          f.q = f.q || [];
+          m[e] = m[e] || f.bind(f.q);
+          m[e].q = m[e].q || f.q;
+          r = a.createElement(i);
+          var _ = a.getElementsByTagName(i)[0];
+          r.async = 1;
+          r.src = l + "?v" + ~~(new Date().getTime() / 1000000);
+          _.parentNode.insertBefore(r, _);
         })(
           window,
           document,
           "script",
           "https://static.mailerlite.com/js/universal.js",
           "ml"
-        )
+        );
 
-        var ml_account = ml("accounts", "1928266", "y4a6p1v7u9", "load")
+        var ml_account = ml("accounts", "1928266", "y4a6p1v7u9", "load");
       }
     </script>
     <!-- NewsLetters Universal -->
@@ -494,7 +494,7 @@
           </h4>
           <!-- <h4 class="element" data="sample.info.2">
             "Trys kubai educator could teach your class, this year's price is 3
-            eur/student, contact <b>akvile@tryskubai.lt</b>, +370 (602) 91 919
+            eur/student, contact <b>tadas@tryskubai.lt</b>, +370 (600) 10 584
             for an offer.
           </h4> -->
         </div>
@@ -521,7 +521,7 @@
         breakpoints: {
           480: {},
         },
-      }).mount()
+      }).mount();
 
       new Splide(".splide02", {
         type: "loop",
@@ -532,7 +532,7 @@
         breakpoints: {
           480: {},
         },
-      }).mount()
+      }).mount();
 
       new Splide(".splide03", {
         type: "loop",
@@ -543,7 +543,7 @@
         breakpoints: {
           480: {},
         },
-      }).mount()
+      }).mount();
     </script>
   </body>
 </html>
