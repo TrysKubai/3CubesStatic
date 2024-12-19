@@ -7,7 +7,8 @@ function defineDownloadForm(template) {
     constructor() {
       super();
       this.innerHTML = template;
-      this.downloadURL = "https://utility-server.komandax.lt/Packages/RequestPackage";
+      this.downloadURL =
+        "https://utility-server.komandax.lt/Packages/RequestPackage";
 
       this.dialgoIsActive = true;
 
@@ -35,7 +36,7 @@ function defineDownloadForm(template) {
       this.downloadSubmitButton.addEventListener("click", () => this.submit());
       this.downloadFormBackground.addEventListener("click", () => this.hide());
 
-      this.packageLang = this.querySelector('#packageLang');
+      this.packageLang = this.querySelector("#packageLang");
     }
 
     show() {
@@ -119,7 +120,6 @@ function defineDownloadForm(template) {
 }
 
 function onClickDownloadButton(lesson) {
-  
   // const downloadForm = document.querySelector("download-form");
   // const packageLangSelect = document.querySelector('#packageLang');
   // const packageLangEn = document.querySelector('#packageLangEn');
@@ -139,23 +139,20 @@ function onClickDownloadButton(lesson) {
   // {
   //   packageLangEn.style.display = '';
   // }
-  var url = ""
-  if (lesson === 'KMKM') {
-    url = "res/lesson-archives/KingQuean_LT.zip" 
-  }
-  else if (lesson === 'S13') {
-    url = "res/lesson-archives/Jan13_LT.zip"
-  }
-  else if (lesson === 'UA')
-  {
-    url = "res/lesson-archives/UA_LT.zip"
+  var url = "";
+  if (lesson === "KMKM") {
+    url = "res/lesson-archives/KingQuean_LT.zip";
+  } else if (lesson === "S13") {
+    url = "res/lesson-archives/Jan13_LT.zip";
+  } else if (lesson === "UA") {
+    url = "res/lesson-archives/UA_LT.zip";
   }
 
-  const a = document.createElement('a')
-  a.href = url
-  a.download = url.split('/').pop()
-  document.body.appendChild(a)
-  a.click()
-  document.body.removeChild(a)
-
+  const a = document.createElement("a");
+  a.href = url;
+  a.target = "_blank";
+  a.download = url.split("/").pop();
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
 }
