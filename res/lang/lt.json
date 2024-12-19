@@ -9,7 +9,7 @@
     "news": "Naujienos",
     "contacts": "Kontaktai",
     "sample": "Išbandykite",
-    "super_citizen": "Super Pilietis"
+    "super_citizen": "Super pilietis"
   },
   "footer": {
     "contact": {
@@ -83,11 +83,6 @@
       }
     },
     "community": {
-      "title": {
-        "word": "Net",
-        "num": "95%"
-      },
-      "sub": "mokytojų „Trys kubai“ formalaus švietimo pamokų edukacinį turinį įvertina „gerai“ ir „labai gerai“ !",
       "slide01": {
         "review": "Geros mokyklos koncepcijoje yra kalbama apie nuotykius mokykloje. Žaidimu paremtas mokymasis yra puikus metodas siekti akademinių rezultatų!",
         "userName": "Vaidas Bacys",
@@ -109,9 +104,6 @@
       "title": "Pasiekimai",
       "cardLeft": {
         "desc": "2020m. laimėjome 1 vietą kategorijoje „Mokymasis ir švietimas“"
-      },
-      "cardMiddle": {
-        "desc": "Sertifikuoti „Microsoft” partneriai"
       },
       "cardRight": {
         "desc": "2020 m. išrinkti vieni iš 16 geriausių skaitmeninių sprendimų Europoje"
@@ -397,6 +389,8 @@
       "option2": "2 Variantas",
       "titleA": "Mokymo moduliai 3 ir 4 klasėms",
       "titleB": "Susikurkite savo modulį",
+      "descA1": "Pamokų žemėlapiai „Minecraft“ žaidime ir pamokų planai.",
+      "descA2": "Mokytojas gali savarankiškai vesti pamokas.",
       "descB": "Pasirink - Nutempk - Paleisk <br> 11 bet kokios klasės pamokų",
       "custom": {
         "title": "Moduliai"
@@ -473,8 +467,7 @@
           "Susipažįstama su industriniais sektoriais",
           "Bendradarbiaujama ir atliekamos užduotis",
           "Skatinamas kūrybiškumas"
-        ],
-        "note": "Prenumeruoti naujienlaiškio nebūtina"
+        ]
       }
     },
     "instructions": {
@@ -485,7 +478,7 @@
     },
     "info": [
       "Nemokamas pamokos paketas sukurtas taip, kad mokytojas klasei gali pats savarankiškai pravesti pamoką.",
-      "Jeigu kyla klausimų įsirašant programėles, kreipkitės į <b>info@tryskubai.lt</b>",
+      "Jeigu kyla klausimų įsirašant programėles, kreipkitės į <b>Tadas@tryskubai.lt</b>",
       "Jeigu norite, kad pamoką Jūsų klasei pravestų Trys kubai edukatorius, šių metų kaina — 3 eur/mokiniui, dėl pasiūlymo kreipkitės tadas@tryskubai.lt, +370 (600) 10 584"
     ],
     "downloadForm": {
@@ -581,7 +574,7 @@
     },
     "analytics": {
       "title": "Analitiniai",
-      "desc": "Analitiniai slapukai naudojami siekiant suprasti, kaip lankytojai sąveikauja su svetaine. Šie slapukai padeda teikti informaciją apie tokius rodiklius kaip, lankytojų skaičius, srauto šaltinis ir kt."
+      "desc": "Analitiniai slapukai naudojami siekiant suprasti, kaip lankytojai sąveikauja su svetaine. Šie slapukai padeda teikti informaciją apie tokius rodiklius, kaip lankytojų skaičius, srauto šaltinis ir kt."
     }
   },
   "notice": {
@@ -602,7 +595,7 @@
       "title1": "1. Taisyklių taikymas ir aiškinimas",
       "msg1": {
         "1": "1.1. Šios taisyklės (toliau – Taisyklės) nustato naudojimosi internetine svetaine www.threecubes.gg (toliau – Svetainė), įskaitant bet kokį turinį, funkcijas, produktus ir paslaugas, siūlomus Svetainėje arba per ją, nepriklausomai nuo to, ar esate lankytojas, ar registruotas naudotojas.",
-        "2": "1.2. Svetainę valdo, administruoja ir paslaugas teikia VšĮ Edukraftas (toliau - \"Trys kubai\"), juridinio asmens kodas 305465636, buveinės adresas V. Nagevičiaus g. 3, Vilnius, Vilnius, Lietuva, el. pašto adresas info@tryskubai.lt.",
+        "2": "1.2. Svetainę valdo, administruoja ir paslaugas teikia VšĮ Edukraftas (toliau - \"Trys kubai\"), juridinio asmens kodas 305465636, buveinės adresas V. Nagevičiaus g. 3, Vilnius, Vilnius, Lietuva, el. pašto adresas Tadas@tryskubai.lt.",
         "3": "1.3. Taisyklės yra sutartis tarp Jūsų (toliau – Jūs arba Lankytojas) ir Trys kubai. Naudodamiesi Svetaine, Jūs įsipareigojate laikytis šių Taisyklių. Jei nesutinkate su Taisyklėmis, nesinaudokite Svetaine.",
         "4": "1.4. Kad galėtumėte šių Taisyklių pagrindu sudaryti sutartį, turite pilnametystės sulaukęs asmuo savo gyvenamojoje šalyje. Esate teisiškai ir finansiškai atsakingi už visus veiksmus, kuriuos atliekate naudodamiesi mūsų programine įranga arba prie jos prisijungdami, įskaitant veiksmus asmenų, kuriems leidžiate prisijungti prie savo paskyros. Patvirtinate, kad esate sulaukę pilnametystės, suprantate ir sutinkate su šiomis Taisyklėmis. Jei esate jaunesnis nei pilnametis, su šiomis Taisyklėmis turi sutikti jūsų tėvai arba teisėti globėjai.",
         "5": "1.5. Paslaugos (toliau – Paslaugos) šių Taisyklių prasme apima visus Jūsų veiksmus, kuriuos Jūs galite atlikti Svetainėje, įskaitant, Svetainės informacijos skaitymą, peržiūrą, klausimų, bet kokio pobūdžio informacijos ir (ar) duomenų pateikimą, siuntimą bei gavimą.",
@@ -704,7 +697,7 @@
       },
       "title2": "2. Kas mes esame?",
       "msg2": {
-        "1": "2.1. Svetainę valdo ir administruoja VšĮ Edukraftas (juridinio asmens kodas 305465636, registruotos buveinės adresas V. Nagevičiaus g. 3, Vilnius, Lietuva, el. pašto adresas info@tryskubai.lt).",
+        "1": "2.1. Svetainę valdo ir administruoja VšĮ Edukraftas (juridinio asmens kodas 305465636, registruotos buveinės adresas V. Nagevičiaus g. 3, Vilnius, Lietuva, el. pašto adresas Tadas@tryskubai.lt).",
         "2": "2.2. Esame jūsų asmens duomenų valdytojas."
       },
       "title3": "3. Kokius asmens duomenis tvarkome ir kokiais tikslais?",
@@ -889,7 +882,7 @@
   "cookiesPolicy": {
     "title": "Slapukų politika",
     "date": "Ši slapukų politika paskelbta",
-    "sub": "Slapukų politika (toliau - Slapukų politika) interneto svetainės www.threecubes.gg (toliau - Svetainė), kurią valdo ir administruoja VšĮ Edukraftas (juridinio asmens kodas 305465636, registruotos buveinės adresas V. Nagevičiaus g. 3, Vilnius, Lietuva, el. pašto adresas info@tryskubai.lt) (toliau - Mes) paaiškina, kas yra slapukai ir kaip jie tvarkomi.",
+    "sub": "Slapukų politika (toliau - Slapukų politika) interneto svetainės www.threecubes.gg (toliau - Svetainė), kurią valdo ir administruoja VšĮ Edukraftas (juridinio asmens kodas 305465636, registruotos buveinės adresas V. Nagevičiaus g. 3, Vilnius, Lietuva, el. pašto adresas Tadas@tryskubai.lt) (toliau - Mes) paaiškina, kas yra slapukai ir kaip jie tvarkomi.",
     "list": {
       "title1": "1. Kas yra slapukai?",
       "msg1": {
@@ -993,11 +986,11 @@
           "7": "Teisė į asmens duomenų perkeliamumą.",
           "8": "Teisė pateikti skundą Valstybinei duomenų apsaugos inspekcijai."
         },
-        "2": "Norėdami pasinaudoti savo teisėmis, galite susisiekti su mumis šiuo kontaktiniu el. pašto adresu: info@tryskubai.lt.\nIšsamesnė informacija apie jūsų teisių įgyvendinimo tvarką ir terminus pateikiama mūsų „Privatumo politikoje“."
+        "2": "Norėdami pasinaudoti savo teisėmis, galite susisiekti su mumis šiuo kontaktiniu el. pašto adresu: Tadas@tryskubai.lt.\nIšsamesnė informacija apie jūsų teisių įgyvendinimo tvarką ir terminus pateikiama mūsų „Privatumo politikoje“."
       },
       "title6": "6. Jūsų teisė pateikti skundą",
       "msg6": {
-        "1": "Jei manote, kad jūsų teisės buvo pažeistos, visada galite susisiekti su mumis el. paštu info@tryskubai.lt ir (arba) pateikti skundą Valstybinei duomenų apsaugos inspekcijai (L. Sapiegos g. 17, LT-10312 Vilnius, el. paštu ada@ada.lt)."
+        "1": "Jei manote, kad jūsų teisės buvo pažeistos, visada galite susisiekti su mumis el. paštu Tadas@tryskubai.lt ir (arba) pateikti skundą Valstybinei duomenų apsaugos inspekcijai (L. Sapiegos g. 17, LT-10312 Vilnius, el. paštu ada@ada.lt)."
       }
     }
   }

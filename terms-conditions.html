@@ -31,13 +31,13 @@
     <script src="./components/noticeOverlay/noticeOverlay.js"></script>
     <!-- GOOGLE ANALYTICS -->
     <script>
-      let gaProperty = "G-78KBBN7H92"
-      let disableStr = "ga-disable-" + gaProperty
+      let gaProperty = "G-78KBBN7H92";
+      let disableStr = "ga-disable-" + gaProperty;
 
       // Define dataLayer and the gtag function.
-      window.dataLayer = window.dataLayer || []
+      window.dataLayer = window.dataLayer || [];
       function gtag() {
-        dataLayer.push(arguments)
+        dataLayer.push(arguments);
       }
 
       // Default ad_storage to 'denied'.
@@ -45,7 +45,7 @@
         ad_storage: "denied",
         analytics_storage: "denied",
         wait_for_update: 5000,
-      })
+      });
     </script>
     <!-- Global site tag (gtag.js) - Google Ads: CONVERSION_ID  -->
     <script
@@ -53,40 +53,40 @@
       src="https://www.googletagmanager.com/gtag/js?id=AW-YYYYYY"
     ></script>
     <script>
-      window.dataLayer = window.dataLayer || []
+      window.dataLayer = window.dataLayer || [];
       function gtag() {
-        dataLayer.push(arguments)
+        dataLayer.push(arguments);
       }
-      gtag("js", new Date())
-      gtag("config", gaProperty, { debug_mode: true })
+      gtag("js", new Date());
+      gtag("config", gaProperty, { debug_mode: true });
     </script>
     <!-- NewsLetters Universal -->
     <script>
       // CHECKING for GDPR COOKIE & functional preference STATUS
-      ;(function (m, a, i, l, e, r) {
-        m["MailerLiteObject"] = e
+      (function (m, a, i, l, e, r) {
+        m["MailerLiteObject"] = e;
         function f() {
-          var c = { a: arguments, q: [] }
-          var r = this.push(c)
-          return "number" != typeof r ? r : f.bind(c.q)
+          var c = { a: arguments, q: [] };
+          var r = this.push(c);
+          return "number" != typeof r ? r : f.bind(c.q);
         }
-        f.q = f.q || []
-        m[e] = m[e] || f.bind(f.q)
-        m[e].q = m[e].q || f.q
-        r = a.createElement(i)
-        var _ = a.getElementsByTagName(i)[0]
-        r.async = 1
-        r.src = l + "?v" + ~~(new Date().getTime() / 1000000)
-        _.parentNode.insertBefore(r, _)
+        f.q = f.q || [];
+        m[e] = m[e] || f.bind(f.q);
+        m[e].q = m[e].q || f.q;
+        r = a.createElement(i);
+        var _ = a.getElementsByTagName(i)[0];
+        r.async = 1;
+        r.src = l + "?v" + ~~(new Date().getTime() / 1000000);
+        _.parentNode.insertBefore(r, _);
       })(
         window,
         document,
         "script",
         "https://static.mailerlite.com/js/universal.js",
         "ml"
-      )
+      );
 
-      var ml_account = ml("accounts", "1928266", "y4a6p1v7u9", "load")
+      var ml_account = ml("accounts", "1928266", "y4a6p1v7u9", "load");
     </script>
   </head>
   <body>
@@ -110,10 +110,10 @@
               </li>
               <li class="element" data="termsConditions.list.msg1.2">
                 1.2. The Website is managed, administered and services provided
-                by  VšĮ Edukraftas (hereinafter referred to as “Three
-                Cubes”), legal entity code 305465636, registered office address
-                at V. Nagevičiaus g. 3, Vilnius, Lithuania, e-mail
-                address info@tryskubai.lt.
+                by VšĮ Edukraftas (hereinafter referred to as “Three Cubes”),
+                legal entity code 305465636, registered office address at V.
+                Nagevičiaus g. 3, Vilnius, Lithuania, e-mail address
+                Tadas@tryskubai.lt.
               </li>
               <li class="element" data="termsConditions.list.msg1.3">
                 1.3. The Terms constitute a contract between you ("you" or
@@ -562,13 +562,13 @@
     <script src="./res/js/locale.js"></script>
 
     <script type="text/javascript">
-      const footer = document.querySelector("footer-comp")
-      const gdpr = document.querySelector("gdpr-popup")
-      const notice = document.querySelector("notice-overlay")
+      const footer = document.querySelector("footer-comp");
+      const gdpr = document.querySelector("gdpr-popup");
+      const notice = document.querySelector("notice-overlay");
 
-      footer.addEventListener("showNotice", () => notice.show())
-      gdpr.addEventListener("hideNotice", () => notice.hide())
-      notice.addEventListener("showGDPR", () => gdpr.show())
+      footer.addEventListener("showNotice", () => notice.show());
+      gdpr.addEventListener("hideNotice", () => notice.hide());
+      notice.addEventListener("showGDPR", () => gdpr.show());
     </script>
   </body>
 </html>
