@@ -9,7 +9,7 @@
     "news": "News",
     "contacts": "Contacts",
     "sample": "Sample",
-    "super_citizen": "Super Citizen"
+    "super_citizen": "Super citizen"
   },
   "footer": {
     "contact": {
@@ -83,11 +83,6 @@
       }
     },
     "community": {
-      "title": {
-        "word": "",
-        "num": "95%"
-      },
-      "sub": "teachers rate \"Three Cubes\" educational content for formal education as \"good\" and \"very good\"!",
       "slide01": {
         "review": "The Great School Concept points out adventures in school. Game-based learning is a great method to reach to academic results!",
         "userName": "Vaidas Bacys",
@@ -109,9 +104,6 @@
       "title": "Our achievements",
       "cardLeft": {
         "desc": "In 2020 we won the 1st place in category \"Learning and education\" in a national competition"
-      },
-      "cardMiddle": {
-        "desc": "Certified \"Microsoft\" partners"
       },
       "cardRight": {
         "desc": "In 2020 we were selected as one of the 16 best digital solutions in Europe"
@@ -390,6 +382,8 @@
       "option2": "2 Option",
       "titleA": "Learning packages for 3rd & 4th Grades",
       "titleB": "Build your own package",
+      "descA1": "Lesson plans and \"Minecraft\" maps.",
+      "descA2": "The teacher can independently conduct lessons.",
       "descB": "Choose - Drag - Drop <br> 11 lessons from any grade to Package",
       "custom": {
         "title": "Package"
@@ -488,8 +482,7 @@
           "Learn about different sectors of industry",
           "Work in teams to accomplish tasks",
           "Be creative"
-        ],
-        "note": "Subscribing to newsletters is optional"
+        ]
       }
     },
     "instructions": {
@@ -500,7 +493,7 @@
     },
     "info": [
       "Our free lesson packages are designed in a way that the teacher could go along with material and teach class on his own.",
-      "For any questions feel free to contact <b>info@tryskubai.lt</b>",
+      "For any questions feel free to contact <b>Tadas@tryskubai.lt</b>",
       "Trys kubai educator could teach your class, this year's price is 3 eur/student, contact <b>tadas@tryskubai.lt</b>, +370 (600) 10 584 for an offer."
     ],
     "downloadForm": {
@@ -617,7 +610,7 @@
       "title1": "1. Application and interpretation of the Terms",
       "msg1": {
         "1": "1.1. The following terms and conditions (“Terms”) apply to your use of the website www.threecubes.gg (“Website”), including any content, functionality, products, and services offered on or through Website, whether as a guest or a registered user.",
-        "2": "1.2. The Website is managed, administered and services provided by VšĮ Edukraftas (hereinafter referred to as “ThreeCubes”), legal entity code 305465636, registered office address at V. Nagevičiaus g. 3, Vilnius, Lithuania, e-mail address info@tryskubai.lt.",
+        "2": "1.2. The Website is managed, administered and services provided by VšĮ Edukraftas (hereinafter referred to as “ThreeCubes”), legal entity code 305465636, registered office address at V. Nagevičiaus g. 3, Vilnius, Lithuania, e-mail address Tadas@tryskubai.lt.",
         "3": "1.3. The Terms constitute a contract between you (\"you\" or \"visitor\") and Three Cubes. By using the Website, you agree to be bound by these Terms. If you do not agree to the Terms, please do not use the Website.",
         "4": "1.4. To enter into contract created by these terms, you must be an adult of the legal age of majority in your country of residence. You are legally and financially responsible for all actions using or accessing our software, including the actions of anyone you allow to access to your account. You affirm that You have reached the legal age of majority, understand and accept these Terms. If You are under the legal age of majority, Your parent or legal guardian must consent to these Terms.",
         "5": "1.5. For the purposes of these Terms, the Services (\"Services\") include all of the activities that You may perform on the Website, including, but not limited to reading, viewing, asking questions, submitting, sending and receiving information and/or data of any kind on the Website.",
@@ -719,7 +712,7 @@
       },
       "title2": "2. Who are we?",
       "msg2": {
-        "1": "2.1. The Website is managed and administered by VšĮ Edukraftas (legal entity code 305465636, registered office address at V. Nagevičiaus g. 3, Vilnius, Lithuania, e-mail address info@tryskubai.lt).",
+        "1": "2.1. The Website is managed and administered by VšĮ Edukraftas (legal entity code 305465636, registered office address at V. Nagevičiaus g. 3, Vilnius, Lithuania, e-mail address Tadas@tryskubai.lt).",
         "2": "2.2. We are a controller of your personal data."
       },
       "title3": "3. What personal data we process and for what purposes?",
@@ -904,7 +897,7 @@
   "cookiesPolicy": {
     "title": "Cookies Policy",
     "date": "This Cookie Policy has been published on",
-    "sub": "Cookie Policy (hereinafter the “Cookie Policy”) of the Website www.threecubes.gg (hereinafter the “Website”) managed and administered by VšĮ Edukraftas (legal entity code 305465636, registered office address at V. Nagevičiaus g. 3, Vilnius, Lithuania, e-mail address info@tryskubai.lt) (hereinafter “We”) explains what cookies are and how they are processed.",
+    "sub": "Cookie Policy (hereinafter the “Cookie Policy”) of the Website www.threecubes.gg (hereinafter the “Website”) managed and administered by VšĮ Edukraftas (legal entity code 305465636, registered office address at V. Nagevičiaus g. 3, Vilnius, Lithuania, e-mail address Tadas@tryskubai.lt) (hereinafter “We”) explains what cookies are and how they are processed.",
     "list": {
       "title1": "1. What are cookies?",
       "msg1": {
@@ -1008,11 +1001,11 @@
           "7": "Right to your personal data portability.",
           "8": "The right to submit a complaint to the State Data Protection Inspectorate."
         },
-        "2": "To exercise your rights, you can contact us at the following contact email address: info@tryskubai.lt\nMore detailed information about the procedure and time limits for exercising your rights is set out in our “Privacy Policy”."
+        "2": "To exercise your rights, you can contact us at the following contact email address: Tadas@tryskubai.lt\nMore detailed information about the procedure and time limits for exercising your rights is set out in our “Privacy Policy”."
       },
       "title6": "6. Your right to lodge a complaint",
       "msg6": {
-        "1": "If you believe that your rights have been violated, you can always contact us by email at info@tryskubai.lt and/or file a complaint with the State Data Protection Inspectorate (L. Sapiegos g. 17, LT-10312 Vilnius, by e-mail ada@ada.lt)."
+        "1": "If you believe that your rights have been violated, you can always contact us by email at Tadas@tryskubai.lt and/or file a complaint with the State Data Protection Inspectorate (L. Sapiegos g. 17, LT-10312 Vilnius, by e-mail ada@ada.lt)."
       }
     }
   }
