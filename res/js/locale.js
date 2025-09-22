@@ -75,12 +75,7 @@ function updateContent() {
       if (typeof val !== "string" || !val) return;
 
       // GitHub Pages safety: use relative paths, strip any leading slash
-      if (
-        attr === "src" ||
-        attr === "href" ||
-        attr === "poster" ||
-        attr === "srcset"
-      ) {
+      if (attr === "src" || attr === "href" || attr === "poster" || attr === "srcset") {
         val = val.replace(/^\/+/, "");
       }
       el.setAttribute(attr, val);
@@ -88,10 +83,7 @@ function updateContent() {
   });
 }
 function toggleClass() {
-  const current = i18next.language || "en";
-  headerComp.langSelector.forEach((b) => {
-    b.classList.toggle("active", b.innerText.toLowerCase() === current);
-  });
+  document.querySelector(`.${i18next.language}`).classList.add("active");
 }
 
 async function i18Loader() {
@@ -112,22 +104,22 @@ async function i18Loader() {
 
   i18next.on("languageChanged", () => {
     updateContent();
-    toggleClass();
-    toggleLogo(); // uses i18next.language internally
   });
 
-  headerComp.langSelector.forEach((btn) => {
-    btn.addEventListener("click", async (e) => {
-      const next = e.target.innerText.toLowerCase(); // "en" or "lt"
-      await i18next.changeLanguage(next);
-      setLocalizationLanguage(next);
-      localizationLanguage = next; // keep the variable in sync
-      updateContent(); // update text + attributes
-      toggleLogo(next); // update logo
+  headerComp.langSelector.forEach((s) => {
+    s.addEventListener("click", (e) => {
+      i18next.changeLanguage(e.target.innerText.toLowerCase());
+      setLocalizationLanguage(e.target.innerText.toLowerCase()); // NOTE: Not a very good practice to use visual elements as values;
+      // active class Switcher
+      localizationLanguage === "en"
+        ? s.classList.add("active")
+        : headerComp.langSelector[1].classList.remove("active");
 
-      // active class
-      headerComp.langSelector.forEach((b) => b.classList.remove("active"));
-      btn.classList.add("active");
+      localizationLanguage === "lt"
+        ? s.classList.add("active")
+        : headerComp.langSelector[0].classList.remove("active");
+
+      toggleLogo(localizationLanguage);
     });
   });
   toggleClass();
