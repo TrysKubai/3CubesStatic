@@ -75,19 +75,60 @@ function updateContent() {
       if (typeof val !== "string" || !val) return;
 
       // GitHub Pages safety: use relative paths, strip any leading slash
-      if (attr === "src" || attr === "href" || attr === "poster" || attr === "srcset") {
+      if (
+        attr === "src" ||
+        attr === "href" ||
+        attr === "poster" ||
+        attr === "srcset"
+      ) {
         val = val.replace(/^\/+/, "");
       }
       el.setAttribute(attr, val);
     });
   });
 }
+
+function updateSectionContent(sectionSelector, lng) {
+  const root = document.querySelector(sectionSelector);
+  if (!root) return;
+
+  // text
+  root.querySelectorAll(".element[data]").forEach((el) => {
+    const key = el.getAttribute("data");
+    const val = i18next.t(key, { lng });
+    if (typeof val === "string") el.innerHTML = val;
+  });
+
+  // attributes (src, alt, href, poster, srcset)
+  root.querySelectorAll("[data-i18n-attr]").forEach((el) => {
+    const map = el.getAttribute("data-i18n-attr");
+    if (!map) return;
+    map.split(";").forEach((pair) => {
+      const p = pair.trim();
+      if (!p) return;
+      const [attr, key] = p.split(":").map((s) => s.trim());
+      if (!attr || !key) return;
+      let val = i18next.t(key, { lng });
+      if (typeof val !== "string" || !val) return;
+      if (
+        attr === "src" ||
+        attr === "href" ||
+        attr === "poster" ||
+        attr === "srcset"
+      ) {
+        val = val.replace(/^\/+/, ""); // GH Pages-safe
+      }
+      el.setAttribute(attr, val);
+    });
+  });
+}
+
 function toggleClass() {
   document.querySelector(`.${i18next.language}`).classList.add("active");
 }
 
 async function i18Loader() {
-  const langs = ["en", "lt"];
+  const langs = ["en", "lt", "pl"];
   const jsons = await Promise.all(
     langs.map((l) => fetch("./res/lang/" + l + ".json").then((r) => r.json()))
   );
@@ -100,28 +141,38 @@ async function i18Loader() {
     debug: true,
     resources: res,
   });
+
   updateContent();
 
   i18next.on("languageChanged", () => {
     updateContent();
   });
 
-  headerComp.langSelector.forEach((s) => {
-    s.addEventListener("click", (e) => {
-      i18next.changeLanguage(e.target.innerText.toLowerCase());
-      setLocalizationLanguage(e.target.innerText.toLowerCase()); // NOTE: Not a very good practice to use visual elements as values;
-      // active class Switcher
-      localizationLanguage === "en"
-        ? s.classList.add("active")
-        : headerComp.langSelector[1].classList.remove("active");
-
-      localizationLanguage === "lt"
-        ? s.classList.add("active")
-        : headerComp.langSelector[0].classList.remove("active");
-
-      toggleLogo(localizationLanguage);
+  // 👇 Wire the PL button NOW (no DOMContentLoaded)
+  const plBtn = document.querySelector("#cybersecurity .switch-to-pl");
+  if (plBtn) {
+    plBtn.addEventListener("click", () => {
+      updateSectionContent("#cybersecurity", "pl");
     });
-  });
+  }
+
+  // (Unrelated but still risky) headerComp.langSelector may be undefined.
+  // Guard it so your page doesn't crash if header-comp hasn't exposed it.
+  if (headerComp?.langSelector) {
+    headerComp.langSelector.forEach((s) => {
+      s.addEventListener("click", (e) => {
+        const next = e.target.innerText.toLowerCase();
+        i18next.changeLanguage(next);
+        setLocalizationLanguage(next);
+        toggleLogo(next);
+        // simple active toggle
+        headerComp.langSelector.forEach((b) =>
+          b.classList.toggle("active", b === s)
+        );
+      });
+    });
+  }
+
   toggleClass();
   toggleLogo(localizationLanguage);
 }
