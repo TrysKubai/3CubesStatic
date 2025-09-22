@@ -44,25 +44,54 @@ function setLocalizationLanguage(value, expiration = 2592000) {
 
 //toggle logo LT->EN
 function toggleLogo(lang) {
-  if (lang === "en") {
+  const L = lang || i18next.language || "en";
+  if (L === "en") {
     headerComp.logo.src = "./res/img/header_footer/logo_en.png";
-    // productTutElement.src = "./res/img/products/tutorial_en.png";
   } else {
     headerComp.logo.src = "./res/img/header_footer/logo.png";
-    // productTutElement.src = "./res/img/products/tutorial.png";
   }
 }
 
 function updateContent() {
+  // A) Text nodes
   const elements = document.getElementsByClassName("element");
   for (let i = 0; i < elements.length; i++) {
-    const element = elements[i];
-    const k = element.getAttribute("data");
-    element.innerHTML = i18next.t(k);
+    const el = elements[i];
+    const key = el.getAttribute("data");
+    const val = i18next.t(key);
+    if (typeof val === "string") el.innerHTML = val;
   }
+
+  // B) Attribute bindings (src, alt, href, poster, srcset, etc.)
+  document.querySelectorAll("[data-i18n-attr]").forEach((el) => {
+    const map = el.getAttribute("data-i18n-attr"); // e.g. "src:sample.cybersecurity.logo; alt:sample.cybersecurity.logoAlt"
+    if (!map) return;
+    map.split(";").forEach((pair) => {
+      const p = pair.trim();
+      if (!p) return;
+      const [attr, key] = p.split(":").map((s) => s.trim());
+      if (!attr || !key) return;
+      let val = i18next.t(key);
+      if (typeof val !== "string" || !val) return;
+
+      // GitHub Pages safety: use relative paths, strip any leading slash
+      if (
+        attr === "src" ||
+        attr === "href" ||
+        attr === "poster" ||
+        attr === "srcset"
+      ) {
+        val = val.replace(/^\/+/, "");
+      }
+      el.setAttribute(attr, val);
+    });
+  });
 }
 function toggleClass() {
-  document.querySelector(`.${i18next.language}`).classList.add("active");
+  const current = i18next.language || "en";
+  headerComp.langSelector.forEach((b) => {
+    b.classList.toggle("active", b.innerText.toLowerCase() === current);
+  });
 }
 
 async function i18Loader() {
@@ -83,22 +112,22 @@ async function i18Loader() {
 
   i18next.on("languageChanged", () => {
     updateContent();
+    toggleClass();
+    toggleLogo(); // uses i18next.language internally
   });
 
-  headerComp.langSelector.forEach((s) => {
-    s.addEventListener("click", (e) => {
-      i18next.changeLanguage(e.target.innerText.toLowerCase());
-      setLocalizationLanguage(e.target.innerText.toLowerCase()); // NOTE: Not a very good practice to use visual elements as values;
-      // active class Switcher
-      localizationLanguage === "en"
-        ? s.classList.add("active")
-        : headerComp.langSelector[1].classList.remove("active");
+  headerComp.langSelector.forEach((btn) => {
+    btn.addEventListener("click", async (e) => {
+      const next = e.target.innerText.toLowerCase(); // "en" or "lt"
+      await i18next.changeLanguage(next);
+      setLocalizationLanguage(next);
+      localizationLanguage = next; // keep the variable in sync
+      updateContent(); // update text + attributes
+      toggleLogo(next); // update logo
 
-      localizationLanguage === "lt"
-        ? s.classList.add("active")
-        : headerComp.langSelector[0].classList.remove("active");
-
-      toggleLogo(localizationLanguage);
+      // active class
+      headerComp.langSelector.forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
     });
   });
   toggleClass();
