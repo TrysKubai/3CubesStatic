@@ -352,7 +352,7 @@
     "kibernetinis":{
       "title": "Kibernetinis saugumas su „Minecraft“",
       "text1": "Projektas sieks ugdyti mokinių ir jaunimo kibernetinio saugumo žinias, pasitelkiant interaktyvią „Minecraft: Education Edition“ platformą. Jo metu bus kuriama skaitmeninė mokymosi priemonė apie kibernetinį saugumą. Ji bus orientuota į skirtingas amžiaus grupes – nuo pradinių klasių mokinių iki studentų. Taip pat šiai priemonei bus parengta metodinė medžiaga. Be to, planuojama viešinimo kampanija, kuri padės pasiekti kuo daugiau mokyklų, universitetų ir neformaliojo švietimo įstaigų.",
-      "text2": "Projekto tikslas – sukurti ir įdiegti inovatyvų neformalaus švietimo turinį, skirtą vaikams ir jaunimui, kuris per interaktyvią Minecraft platformą suteiktų žinias apie kibernetinį saugumą. Projekto tikslo pasiekimas leistų ugdyti svarbiausius kibernetinio saugumo įgūdžius ir didinti mokinių bei studentų sąmoningumą, siekiant sumažinti jų pažeidžiamumą internete. Sukurtas mokymosi turinys dviejų žaidimų forma bus prieinamas rinkoje esančiose skaitmeninėsemokymo(si) priemonėse, taip prisidedant prie kibernetinio saugumo žinių sklaidos ir dalijimosi platesnėje visuomenėje.",
+      "text2": "Projekto tikslas – sukurti ir įdiegti inovatyvų neformalaus švietimo turinį, skirtą vaikams ir jaunimui, kuris per interaktyvią Minecraft platformą suteiktų žinias apie kibernetinį saugumą. Projekto tikslo pasiekimas leistų ugdyti svarbiausius kibernetinio saugumo įgūdžius ir didinti mokinių bei studentų sąmoningumą, siekiant sumažinti jų pažeidžiamumą internete. Sukurtas mokymosi turinys dviejų žaidimų forma bus prieinamas rinkoje esančiose skaitmeninėse mokymo(si) priemonėse, taip prisidedant prie kibernetinio saugumo žinių sklaidos ir dalijimosi platesnėje visuomenėje.",
       "text3": "Projekto metu bus sukurti du skirtingi žaidimai, skirti dviem tikslinėms grupėms: mokiniams (4-6 klasės) ir studentams (1-4 kursai). Kiekvienas žaidimas turės po šešias pagrindines kibernetinio saugumo temas, kurios bus pritaikytos mokiniams ir studentams. Žaidimo metu vaikai ir studentai rinks taškus, spręs užduotis, o jų progresas bus išsaugomas. Be to, projekto metu bus sukurta vaizdo medžiaga, kuri padės vartotojams geriau suprasti žaidimo pamokas ir scenarijus. Pagrindinis projekto kokybinis rezultatas – sustiprėjusios vaikų ir jaunimo kibernetinio saugumo žinios bei gebėjimai, padedantys saugiau naudotis internetu. ",
       "text4": "Projektui įgyvendinti skirta 50.525,18 Eur suma, kurią sudaro 2021–2027 m. Europos Sąjungos Skaitmeninės Europos programos lėšos (25.262,59 eurų) ir Lietuvos Respublikos bendrojo finansavimo lėšos (25.262,59 eurų)."
     }
@@ -443,6 +443,19 @@
       "sub": "Išbandykite savarankiškai vedamos pamokos paketus!",
       "sub2": "Prenumeruok „Trys kubai“ naujienlaiškį ir gauk savarankiškai vedamos pamokos paketą į el. paštą!",
       "btn": "Susisiekite"
+    },
+    "cybersecurity": {
+      "title": "„Kibernetinis saugumas su Minecraft“",
+      "sub": "Projekto tikslas buvo sukurti ir įdiegti inovatyvų neformalaus švietimo turinį, skirtą vaikams ir jaunimui, kuris per interaktyvią „Minecraft: Education Edition“ platformą suteiktų žinias apie kibernetinį saugumą. Jo metu sukurti du skirtingi žaidimai mokiniams (4-6 klasės) ir studentams (1-4 kursai).",
+      "sub2": "Projektui įgyvendinti skirta 50.525,18 Eur suma, kurią sudaro 2021–2027 m. Europos Sąjungos Skaitmeninės Europos programos lėšos (25.262,59 eurų) ir Lietuvos Respublikos bendrojo finansavimo lėšos (25.262,59 eurų).",
+      "pr": "Skaityti pranešimą spaudai apie projektą čia",
+      "vid": "Žiūrėti vaizdo įrašus apie pamokas čia.",
+      "topics": [
+        "Lankomasi istorinių šaltinių bibliotekoje ir pilyje",
+        "Bendraujama su veikėjais",
+        "Atliekamas žinių testas labirinte"
+      ],
+      "logo": "/res/img/logo_LT_i_web3.png"
     },
     "king&queen": {
       "title": "„Karalius Mindaugas ir karalienė Morta“",

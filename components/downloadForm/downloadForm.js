@@ -157,6 +157,13 @@ function onClickDownloadButton(lesson) {
     url = "https://drive.google.com/uc?export=download&id=1KmXLtlrFErsIqwhPz_Esd9HT40P3wqnj" 
 
   }
+  else if (lesson === 'KM')
+  {
+    // url = "https://drive.google.com/file/d/1KmXLtlrFErsIqwhPz_Esd9HT40P3wqnj"
+    // url = "res/lesson-archives/UA_LT.zip"
+    url = "https://drive.google.com/drive/folders/1WvqyU5wM4rMUjBbtkfFX1_q561ztNYi1" 
+
+  }
 
   const a = document.createElement('a')
   a.href = url
