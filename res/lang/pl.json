@@ -1,0 +1,204 @@
+{
+"sample": {
+    "banner": "Special offer — we invite you to download \"Three Cubes\" \"January 13th\" and \"Humanitarian Aid for Ukraine\" lessons for FREE",
+    "hero": {
+      "title": "Gift - lesson package!",
+      "sub": "Try out the \"Three Cubes\" self-guided lesson packages!",
+      "sub2": "Subscribe to the \"Three Cubes\" newsletter and receive a self-guided lesson package by e-mail!",
+      "btn": "Contact us!"
+    },
+    "cybersecurity": {
+      "title": "»Cyberbezpieczeństwo z Minecraftem«",
+      "sub": "Celem projektu było stworzenie i wdrożenie innowacyjnych treści edukacji pozaformalnej dla dzieci i młodzieży, które za pośrednictwem interaktywnej platformy »Minecraft: Education Edition« dostarczyły wiedzy na temat cyberbezpieczeństwa. W ramach projektu powstały dwie różne gry: dla uczniów (klasy 4–6) oraz dla studentów (lata 1–4).",
+      "sub2": "Na realizację projektu przeznaczono kwotę 50 525,18 EUR, z czego 25 262,59 EUR pochodzi z programu Cyfrowa Europa Unii Europejskiej na lata 2021–2027, a 25 262,59 EUR – ze środków współfinansowania Rzeczypospolitej Litewskiej.",
+      "pr": "Przeczytaj komunikat prasowy o projekcie tutaj.",
+      "vid": "Obejrzyj filmy o lekcjach tutaj.",
+      "logo": "res/img/PL_logo3.png",
+      "logoAlt": "Kibernetinio saugumo su Minecraft logotipas",
+      "download": "Pobierz pakiet lekcji"
+    },
+    "king&queen": {
+      "title": "\"King Mindaugas & Queen Morta\"",
+      "sub": "Students complete tasks cooperatively and learn about the coronation ceremony!",
+      "topics": [
+        "Visits to the library of historical sources and the castle",
+        "Communicating with characters",
+        "Knowledge test in the maze"
+      ]
+    },
+    "jan13": {
+      "title": "\"January 13th\"",
+      "sub": "Get acquainted with historical events, the course of the day of January 13",
+      "lesson": {
+        "desc": "Critical thinking, social and citizenship competences, respect for human rights and freedoms are developed. Students perform tasks individually and in groups.",
+        "topics": [
+          "Complete tasks at Vilnius TV tower",
+          "Work in teams",
+          "Reflect on the events with the teacher and share what you learned"
+        ]
+      }
+    },
+    "ukraine": {
+      "title": "\"Humanitarian Aid for Ukraine\"",
+      "sub": "Learn how to quickly deliver humanitarian aid to Ukraine through cooperation",
+      "lesson": {
+        "desc": "The goal of the lesson is to teach the students how we can support Ukraine by working together.",
+        "topics": [
+          "Learn about different sectors of industry",
+          "Work in teams to accomplish tasks",
+          "Be creative"
+        ]
+      }
+    },
+    "instructions": {
+      "lt": "LITHUANIAN",
+      "en": "ENGLISH",
+      "title": "Getting Started Guides",
+      "desc": "Bellow are hyperlinks to instructions. Select preferable language, then option of your operating system and Minecraft edition"
+    },
+    "info": [
+      "Our free lesson packages are designed in a way that the teacher could go along with material and teach class on his own.",
+      "For any questions feel free to contact <b>Tadas@tryskubai.lt</b>",
+      "Trys kubai educator could teach your class, this year's price is 3 eur/student, contact <b>tadas@tryskubai.lt</b>, +370 (600) 10 584 for an offer."
+    ],
+    "downloadForm": {
+      "title": "Lesson download form",
+      "instructions": "Subscribe to the \"Three Cubes\" newsletter and receive a self-guided lesson package by e-mail. mail!",
+      "notes": [
+        "The lesson package is designed in a way that the teacher can conduct the lesson for the class on his own.",
+        "The lesson package includes: program installation instructions, lesson plan and preparation files, virtual lesson world file.",
+        "After subscribing to the newsletter, a gift — a lesson package — will be automatically sent to the specified e-mail.",
+        "By downloading the lesson package, you agree that your email address will be registered for statistical and feedback gathering purposes. More about this:",
+        "Privacy Policy",
+        "and",
+        "Cookie Policy"
+      ],
+      "desc": "You can choose to receive news about our products and other communications for direct marketing purposes. This is important and is intended for us to be able to contact you - to hear your opinion, how you managed to conduct the lesson on your own and help in case of questions.",
+      "gdpr": "By downloading lesson you agree that your email will be stored for statistical and feedback collecting purposes.",
+      "subscribe": "Subscribe",
+      "sent": "Sent!",
+      "error": [
+        "This value cannot be empty.",
+        "Do not use (<b>\" ' / $ & \\ ;</b>)",
+        "Something went wrong 🤕"
+      ],
+      "label": ["Enter email", "Select package language"]
+    },
+    "downloadForm2": {
+      "title": "Lesson download form",
+      "instructions": "Receive the lesson package to your email!",
+      "notes": [
+        "The lesson package is designed in a way that the teacher can conduct the lesson for the class on his own.",
+        "The lesson package includes: program installation instructions, lesson plan and preparation files, virtual lesson world file.",
+        "SUBSCRIBING TO THE NEWSLETTER IS NOT NECESSARY, you can download this lesson pack by entering your email. below",
+        "By downloading the lesson package, you agree that your email address will be registered for statistical and feedback gathering purposes. More about this:",
+        "Privacy Policy",
+        "and",
+        "Cookie Policy"
+      ],
+      "desc": "You can choose to receive news about our products and other communications for direct marketing purposes. This is important and is intended for us to be able to contact you - to hear your opinion, how you managed to conduct the lesson on your own and help in case of questions.",
+      "gdpr": "By downloading lesson you agree that your email will be stored for statistical and feedback collecting purposes.",
+      "newsletter": "Check, if you also want to subscribe to our newsletters",
+      "send": "Send",
+      "sent": "Sent!",
+      "error": [
+        "This value cannot be empty.",
+        "Do not use (<b>\" ' / $ & \\ ;</b>)",
+        "Something went wrong 🤕"
+      ],
+      "label": ["Enter email", "Select package language"]
+    }
+  },
+    "formal": {
+    "hero": {
+      "title": "Interactive lessons in schools!",
+      "sub": "Formal education with \"Minecraft: Education edition\"",
+      "btn": "Contact us!"
+    },
+    "package": {
+      "title": "\"Three Cubes\" interactive lessons - a great way to improve not only knowledge, but also competencies!",
+      "cardLeft": {
+        "desc": "Interactivity provides possibilities to gain knowledge in various ways"
+      },
+      "cardMiddle": {
+        "desc": "The attention is directed on improving students' compotencies"
+      },
+      "cardRight": {
+        "desc": "Lessons's topics chosen to correlate with formal education programs"
+      }
+    },
+    "download": {
+      "title": "Topics of lessons <small>(LT)</small>",
+      "btn": "Pobierz pakiet lekcji"
+    },
+    "orderNow": {
+      "main": "US schools are using \"First Humans on Mars\" course in their formal education!",
+      "btn": "Contact us!"
+    },
+    "lessons": {
+      "title": "Examples of lessons",
+      "slide01": "Lesson \"National symbols\"",
+      "slide02": "Lesson \"Lithuanian Animals\"",
+      "slide03": "Lesson \"Solar System\"",
+      "slide04": "Lesson \"Vilnius History\"",
+      "slide05": "Lesson \"January 13th\""
+    },
+    "reviews": {
+      "title": "\"Three Cubes\" interactive lessons - provide a convenient way to develop not only knowledge but also competencies",
+      "title2": "Teacher observations on students' experiences, using \"Minecraft\" while learning",
+      "inter-card": {
+        "title": "National Education Agency website: <br> www.mokykla2030.lt states following:",
+        "desc": "\"Curriculum update follows the approach launched in the 2008 programs, but the concept of competence itself has been developed and refined. It also seeks to reveal the links between subject content and competences and to illustrate how competencies are developed through subject content\""
+      },
+      "cardLeft": {
+        "desc": "Developed following updated general education curriculum"
+      },
+      "cardMiddle": {
+        "desc": "Interactivity provides access to knowledge in a variety of forms"
+      },
+      "cardRight": {
+        "desc": "Attention is focused on the development of students' competencies"
+      },
+      "slide01": {
+        "desc": "The shortage of abilieties to work in teams, patience and achieving results really came to light during exercises. The experience of \"Three Cubes\" lessons are very useful for developing these competencies."
+      },
+      "slide02": {
+        "desc": "During these lessons children feel safe – they are not afraid to make a mistake or not know something."
+      }
+    },
+    "keyBenefits": {
+      "title": "According to a survey, teachers who use \"Three Cubes\" lessons state that it improves…",
+      "sideL": {
+        "box1": {
+          "main": "Critical thinking",
+          "overlay": "Social abilities"
+        },
+        "box2": {
+          "main": "Attentiveness",
+          "overlay": "Collaborating"
+        },
+        "box3": {
+          "main": "Creativity",
+          "overlay": "Attention to details"
+        }
+      },
+      "sideR": {
+        "box1": {
+          "main": "Creativity",
+          "overlay": "Spatial thinking"
+        },
+        "box2": {
+          "main": "Information searching",
+          "overlay": "Digital literacy"
+        },
+        "box3": {
+          "main": "Attentive reading",
+          "overlay": "Helping each other"
+        }
+      }
+    },
+    "payments": {
+      "title": ""
+    }
+  }
+}

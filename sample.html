@@ -90,6 +90,37 @@
       }
     </script>
     <!-- NewsLetters Universal -->
+     <style>
+      .switch-to-pl {
+        display: inline-flex;              /* shrink to content */
+        align-items: center;
+        gap: 0.5rem;
+
+        background: #f5f5f5;              /* light background */
+        color: #333;
+        border: 1px solid #ccc;
+        border-radius: 999px;             /* pill shape */
+        padding: 0.4rem 1rem;
+        font-size: 0.9rem;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.2s ease;
+      }
+
+      .switch-to-pl:hover {
+        background: #eaeaea;
+        border-color: #999;
+      }
+
+      .switch-to-pl:active {
+        background: #ddd;
+      }
+
+      .switch-to-pl img,
+      .switch-to-pl span {
+        pointer-events: none;             /* no click hijacking inside */
+      }
+    </style>
   </head>
 
   <body>
@@ -143,6 +174,11 @@
           </h4>
           <a class="element" data="sample.cybersecurity.pr" href="https://drive.google.com/drive/folders/1j3oNCY_Wkn2-fLBrXCTsyEIWy06mupdK" target="_blank">Read the press release about the project here</a>
           <a class="element" data="sample.cybersecurity.vid" href="https://www.youtube.com/@tryskubai1086 " target="_blank">Watch the videos about the lessons here.</a>
+        </div>
+        <div class="sample sample__title">
+          <button type="button" class="switch-to-pl">
+            <span style="font-size:1.2rem">🇵🇱</span> Polski
+          </button>
         </div>
         <div class="sample__body flex-row-reverse">
           <div class="sample__body-container">
