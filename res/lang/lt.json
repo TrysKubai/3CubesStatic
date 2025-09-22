@@ -455,7 +455,8 @@
         "Bendraujama su veikėjais",
         "Atliekamas žinių testas labirinte"
       ],
-      "logo": "/res/img/logo_LT_i_web3.png"
+      "logo": "res/img/logo_LT_i_web3.png",
+      "logoAlt": "Kibernetinio saugumo su Minecraft logotipas"
     },
     "king&queen": {
       "title": "„Karalius Mindaugas ir karalienė Morta“",
