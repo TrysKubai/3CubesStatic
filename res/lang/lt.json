@@ -448,14 +448,10 @@
       "title": "„Kibernetinis saugumas su Minecraft“",
       "sub": "Projekto tikslas buvo sukurti ir įdiegti inovatyvų neformalaus švietimo turinį, skirtą vaikams ir jaunimui, kuris per interaktyvią „Minecraft: Education Edition“ platformą suteiktų žinias apie kibernetinį saugumą. Jo metu sukurti du skirtingi žaidimai mokiniams (4-6 klasės) ir studentams (1-4 kursai).",
       "sub2": "Projektui įgyvendinti skirta 50.525,18 Eur suma, kurią sudaro 2021–2027 m. Europos Sąjungos Skaitmeninės Europos programos lėšos (25.262,59 eurų) ir Lietuvos Respublikos bendrojo finansavimo lėšos (25.262,59 eurų).",
-      "pr": "Skaityti pranešimą spaudai apie projektą čia",
+      "pr": "Skaityti pranešimą spaudai apie projektą čia.",
       "vid": "Žiūrėti vaizdo įrašus apie pamokas čia.",
-      "topics": [
-        "Lankomasi istorinių šaltinių bibliotekoje ir pilyje",
-        "Bendraujama su veikėjais",
-        "Atliekamas žinių testas labirinte"
-      ],
-      "logo": "res/img/logo_LT_i_web3.png",
+      "download": "ATSISIŲSTI PAMOKŲ PAKETĄ ČIA.",
+      "logo": "res/img/LT_LOGO.png",
       "logoAlt": "Kibernetinio saugumo su Minecraft logotipas"
     },
     "king&queen": {

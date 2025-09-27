@@ -13,9 +13,9 @@
       "sub2": "Na realizację projektu przeznaczono kwotę 50 525,18 EUR, z czego 25 262,59 EUR pochodzi z programu Cyfrowa Europa Unii Europejskiej na lata 2021–2027, a 25 262,59 EUR – ze środków współfinansowania Rzeczypospolitej Litewskiej.",
       "pr": "Przeczytaj komunikat prasowy o projekcie tutaj.",
       "vid": "Obejrzyj filmy o lekcjach tutaj.",
-      "logo": "res/img/PL_logo3.png",
-      "logoAlt": "Kibernetinio saugumo su Minecraft logotipas",
-      "download": "Pobierz pakiet lekcji"
+      "download": "POBIERZ PAKIET LEKCJI TUTAJ.",
+      "logo": "res/img/PL_LOGO.png",
+      "logoAlt": "Kibernetinio saugumo su Minecraft logotipas"
     },
     "king&queen": {
       "title": "\"King Mindaugas & Queen Morta\"",
