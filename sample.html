@@ -90,16 +90,16 @@
       }
     </script>
     <!-- NewsLetters Universal -->
-     <style>
+    <style>
       .switch-to-pl {
-        display: inline-flex;              /* shrink to content */
+        display: inline-flex; /* shrink to content */
         align-items: center;
         gap: 0.5rem;
 
-        background: #f5f5f5;              /* light background */
+        background: #f5f5f5; /* light background */
         color: #333;
         border: 1px solid #ccc;
-        border-radius: 999px;             /* pill shape */
+        border-radius: 999px; /* pill shape */
         padding: 0.4rem 1rem;
         font-size: 0.9rem;
         font-weight: 500;
@@ -118,7 +118,7 @@
 
       .switch-to-pl img,
       .switch-to-pl span {
-        pointer-events: none;             /* no click hijacking inside */
+        pointer-events: none; /* no click hijacking inside */
       }
     </style>
   </head>
@@ -165,53 +165,106 @@
             “Cybersecurity with Minecraft”
           </h2>
           <h4 class="element" data="sample.cybersecurity.sub">
-            The aim of the project was to create and implement innovative non-formal education content for children and young people, which, through the interactive “Minecraft: Education Edition” platform, provided knowledge about cybersecurity. 
-            As part of the project, two different games were developed: one for pupils (grades 4–6) and another for students (years 1–4)
+            The aim of the project was to create and implement innovative
+            non-formal education content for children and young people, which,
+            through the interactive “Minecraft: Education Edition” platform,
+            provided knowledge about cybersecurity. As part of the project, two
+            different games were developed: one for pupils (grades 4–6) and
+            another for students (years 1–4)
           </h4>
           <h4 class="element" data="sample.cybersecurity.sub2">
-            The project is intended for school pupils (grades 4–6) and students (years 1–4). A sum of 50,525.18 Eur has been allocated for the project’s implementation, funded by the 2021–2027 European Union's 
-            Digital Europe Programme (25.262,59 Eur) and co-financed by the general financing funds of the Republic of Lithuania (25.262,59 Eur).
+            The project is intended for school pupils (grades 4–6) and students
+            (years 1–4). A sum of 50,525.18 Eur has been allocated for the
+            project’s implementation, funded by the 2021–2027 European Union's
+            Digital Europe Programme (25.262,59 Eur) and co-financed by the
+            general financing funds of the Republic of Lithuania (25.262,59
+            Eur).
           </h4>
-          <a class="element" data="sample.cybersecurity.pr" href="https://drive.google.com/drive/folders/1j3oNCY_Wkn2-fLBrXCTsyEIWy06mupdK" target="_blank">Read the press release about the project here</a>
-          <a class="element" data="sample.cybersecurity.vid" href="https://www.youtube.com/@tryskubai1086 " target="_blank">Watch the videos about the lessons here.</a>
+          <a
+            class="element"
+            data="sample.cybersecurity.pr"
+            href="https://drive.google.com/drive/folders/1j3oNCY_Wkn2-fLBrXCTsyEIWy06mupdK"
+            target="_blank"
+            >Read the press release about the project here</a
+          >
+          <a
+            class="element"
+            data="sample.cybersecurity.vid"
+            href="https://www.youtube.com/@tryskubai1086 "
+            target="_blank"
+            >Watch the videos about the lessons here.</a
+          >
+          <a
+            class="element"
+            data="sample.cybersecurity.download"
+            href="https://www.youtube.com/@tryskubai1086 "
+            target="_blank"
+            >DOWNLOAD THE LESSON PACKAGE HERE</a
+          >
         </div>
-        <div class="sample sample__title">
-          <button type="button" class="switch-to-pl">
-            <span style="font-size:1.2rem">🇵🇱</span> Polski
-          </button>
-        </div>
-        <div class="sample__body flex-row-reverse">
-          <div class="sample__body-container">
-            <div class="sample__body-container_container flex-row">
-            <div class="splide03">
-              <div class="sample__body-container-item">
-                <img
-                  alt=""
-                  data-i18n-attr="src:sample.cybersecurity.logo; alt:sample.cybersecurity.logoAlt"
-                />
-              </div>
+
+        <!-- logo + button container -->
+        <div
+          style="
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          "
+        >
+          <!-- Button on the left with some margin -->
+          <div class="sample sample__title" style="margin: 0">
+            <button
+              type="button"
+              class="switch-to-pl"
+              style="
+                display: inline-flex;
+                align-items: center;
+                padding: 0.6rem 1.2rem;
+                font-size: 1rem;
+                margin-left: 20px;
+              "
+            >
+              <span style="font-size: 1.2rem; margin-right: 0.5rem">🇵🇱</span>
+              Polski
+            </button>
+          </div>
+
+          <!-- Logo on the right -->
+            <div class="sample__body-container-item">
+              <img
+                alt=""
+                style="
+                  max-height: 320px;
+                  width: auto;
+                  display: block;
+                  margin-left: auto;
+                "
+                data-i18n-attr="src:sample.cybersecurity.logo; alt:sample.cybersecurity.logoAlt"
+              />
             </div>
           </div>
-          <div class="sample__body-themes side-half-padding flex-column">
-            <section class="download">
-              <div class="download__container">
-                <button
-                  id="showDialog"
-                  class="flex center transparent UA"
-                  onclick="onClickDownloadButton('KM')"
-                >
-                  <img
-                    class="arrow"
-                    src="./res/img/reusable/arrowR.png"
-                    alt="download arrow"
-                  />
-                  <h4 class="element" data="formal.download.btn">Download</h4>
-                </button>
-              </div>
-            </section>
-          </div>
-        </div>
+
+        <!-- Keep other content below -->
+        <!-- <div class="sample__body-themes side-half-padding flex-column">
+    <section class="download">
+      <div class="download__container">
+        <button
+          id="showDialog"
+          class="flex center transparent UA"
+          onclick="onClickDownloadButton('KM')"
+        >
+          <img
+            class="arrow"
+            src="./res/img/reusable/arrowR.png"
+            alt="download arrow"
+          />
+          <h4 class="element" data="formal.download.btn">Download</h4>
+        </button>
+      </div>
+    </section>
+  </div> -->
       </section>
+
       <section id="king_queen" class="sample flex-column">
         <div class="sample__title flex-column">
           <h2 class="element" data="sample.king&queen.title">
